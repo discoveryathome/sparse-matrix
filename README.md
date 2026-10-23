@@ -1,5 +1,7 @@
 # Sparse matrix ordering
 
+[![Build and scientific checks](https://github.com/discoveryathome/sparse-matrix/actions/workflows/checks.yml/badge.svg)](https://github.com/discoveryathome/sparse-matrix/actions/workflows/checks.yml)
+
 **Contributions and expert review are open.** Find elimination orders that reduce fill-in when factoring a sparse matrix. A contribution is a permutation plus a compact, independently checkable symbolic score.
 
 The active project frontier contains 28 distinct inputs: 12 historical matrices across structural engineering and power networks, plus 16 explicitly synthetic examples. Every task starts from the best verified order we have inherited. The current frontier is v002; older versions remain reproducible.
