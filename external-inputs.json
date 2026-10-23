@@ -1,0 +1,127 @@
+{
+  "schema": "external-inputs/v1",
+  "source_archive_commit": "1874d702f8a00ef9f48b2ba2a43350aa3808a1f3",
+  "downloads": [
+    {
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/bcsstruc1/bcsstk01.mtx.gz",
+      "path": "data/bcsstk01.mtx.gz",
+      "sha256": "567560f75b952d9c14c0d193ded5d80370d7ca26fe49f9e67deee55f22e55699"
+    },
+    {
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/bcsstruc1/bcsstk02.mtx.gz",
+      "path": "data/bcsstk02.mtx.gz",
+      "sha256": "cd27f10160c063ae16d07ec99efa61c02b83bb5689ef5009985194d2e59c238a"
+    },
+    {
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/bcsstruc1/bcsstk03.mtx.gz",
+      "path": "data/bcsstk03.mtx.gz",
+      "sha256": "af8c2febc38a88016b1726fbd0e6dff310b13a47fe81a036ee14604d5b846323"
+    },
+    {
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/bcsstruc1/bcsstk04.mtx.gz",
+      "path": "data/bcsstk04.mtx.gz",
+      "sha256": "11aa7f961f13eb47752e7f7dddaa5ffb3213c0158ef8bb1f30cae59088771694"
+    },
+    {
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/bcsstruc1/bcsstk05.mtx.gz",
+      "path": "data/bcsstk05.mtx.gz",
+      "sha256": "f69d081ee645980a230909473991f5d5edfd3ee1c1637c5dceb3b7a174705eb3"
+    },
+    {
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/bcsstruc1/bcsstk06.mtx.gz",
+      "path": "data/bcsstk06.mtx.gz",
+      "sha256": "a1cc30e594d4d20d89d7132b517741082d3f3b3501e7e4839142acf4dc1f24d1"
+    },
+    {
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/bcsstruc1/bcsstk07.mtx.gz",
+      "path": "data/bcsstk07.mtx.gz",
+      "sha256": "046c84c4004af525ded737bcc0946ff5f336e011077da37af7740c0d8a6a3a92"
+    },
+    {
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/bcsstruc1/bcsstk08.mtx.gz",
+      "path": "data/bcsstk08.mtx.gz",
+      "sha256": "5945836beb24009e8a94b58242d9b5c6cfd261117595898149d3fa9c99c084f7"
+    },
+    {
+      "path": "data/empirical/494_bus.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/psadmit/494_bus.mtx.gz",
+      "sha256": "55a2551e699253653e1b297467da1fdb7b647f850b05eb2c6647f8d66a1d8748"
+    },
+    {
+      "path": "data/empirical/662_bus.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/psadmit/662_bus.mtx.gz",
+      "sha256": "6494b1289470fd880d49ed4c0c6343edf1b5b787ff25191fccbac6fba72e1e98"
+    },
+    {
+      "path": "data/empirical/685_bus.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/psadmit/685_bus.mtx.gz",
+      "sha256": "443dfa2e58126d19b68e648699e3d5fabd7cb917c059eae196d0b8829ae7c73a"
+    },
+    {
+      "path": "data/empirical/1138_bus.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/psadmit/1138_bus.mtx.gz",
+      "sha256": "0544e52ed96893ae82c5a7f9051d662e04a1c27fe57768578de09932381fd963"
+    },
+    {
+      "path": "data/round2/bcsstk09.mtx.gz",
+      "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/bcsstruc1/bcsstk09.mtx.gz",
+      "sha256": "4688c5c78f72e369316796a73cf8e8d9c014d50478285698e40706811472ea5c"
+    }
+  ],
+  "derived": [
+    {
+      "path": "data/round2/bcsstk01.npz",
+      "source": "data/bcsstk01.mtx.gz",
+      "sha256": "520237e469208ef07d1ff52160442749b33f7f5b397c2cc8f91bf7eb3a1b87cd",
+      "recipe": "scipy-csc"
+    },
+    {
+      "path": "data/round2/bcsstk02.npz",
+      "source": "data/bcsstk02.mtx.gz",
+      "sha256": "a3e387de83cc090cae67d21982a670dd4a69c6d913ecbf0a5ecc7606bacd1b40",
+      "recipe": "scipy-csc"
+    },
+    {
+      "path": "data/round2/bcsstk03.npz",
+      "source": "data/bcsstk03.mtx.gz",
+      "sha256": "0ade415508a3d047da39b75492728007d36bc417d14e9d5f8c78cbeb86950d8e",
+      "recipe": "scipy-csc"
+    },
+    {
+      "path": "data/round2/bcsstk04.npz",
+      "source": "data/bcsstk04.mtx.gz",
+      "sha256": "7208e4afe3e9e3ab75318f91d7cb9d4e7c01c767154dd742460ec2834d471f95",
+      "recipe": "scipy-csc"
+    },
+    {
+      "path": "data/round2/bcsstk05.npz",
+      "source": "data/bcsstk05.mtx.gz",
+      "sha256": "f6cbf9c984d101a5e4487ba98ff28ed7994dbe35228efd33724c04f32e43c1e7",
+      "recipe": "scipy-csc"
+    },
+    {
+      "path": "data/round2/bcsstk06.npz",
+      "source": "data/bcsstk06.mtx.gz",
+      "sha256": "57d45211edaabbb16dfb5eeb46b299ca3ac00b9f1ffcabbbfd8246a3f4978493",
+      "recipe": "scipy-csc"
+    },
+    {
+      "path": "data/round2/bcsstk08.npz",
+      "source": "data/bcsstk08.mtx.gz",
+      "sha256": "2d86622de17d22a1d4c9c2ae19e318c9e1f2d764e38e5b82f6f50b3416fe89b4",
+      "recipe": "scipy-csc"
+    },
+    {
+      "path": "data/round2/bcsstk09.npz",
+      "source": "data/round2/bcsstk09.mtx.gz",
+      "sha256": "96c89db1dae4fae372655d8d22b24b8c60dd1b7a3dcb036ea59925c4da528e38",
+      "recipe": "scipy-csc"
+    }
+  ],
+  "omitted_archival_assets": {
+    "research/distribution-prep/nist-index.html": {
+      "sha256": "3bef1f2b02fffab87857f92c8748a7e36d008458e3da93c553c63605a7c4be7d",
+      "reason": "External reference snapshot omitted from public distribution; not used by candidate validators or tests."
+    }
+  }
+}

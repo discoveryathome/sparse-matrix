@@ -1,0 +1,19 @@
+{
+  "verified": true,
+  "matrix_id": "685_bus",
+  "frontier_version": "v001",
+  "score": [
+    3618,
+    24490,
+    16
+  ],
+  "inherited_score": [
+    3630,
+    24672,
+    16
+  ],
+  "improves_submitted_frontier": true,
+  "improves_current_frontier": true,
+  "primary_reduction": 12,
+  "claim": "Symbolic ordering result; no automatic numerical runtime or peak-memory claim"
+}

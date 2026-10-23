@@ -1,0 +1,13 @@
+{
+  "cases": 24,
+  "symbolic_improvements": 20,
+  "maximum_percent": 3.1371853952499085,
+  "heldout_cases": 9,
+  "heldout_improvements": 8,
+  "beats_extra_metis_restarts": 14,
+  "ties_extra_metis_restarts": 4,
+  "extra_metis_better": 6,
+  "faster_observed_median": 13,
+  "reduced_cholmod_peak": 20,
+  "restart_caps_reached": 0
+}

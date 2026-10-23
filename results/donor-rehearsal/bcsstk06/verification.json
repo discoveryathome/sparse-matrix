@@ -1,0 +1,19 @@
+{
+  "verified": true,
+  "matrix_id": "bcsstk06",
+  "frontier_version": "v001",
+  "score": [
+    10843,
+    359887,
+    54
+  ],
+  "inherited_score": [
+    10895,
+    363715,
+    54
+  ],
+  "improves_submitted_frontier": true,
+  "improves_current_frontier": true,
+  "primary_reduction": 52,
+  "claim": "Symbolic ordering result; no automatic numerical runtime or peak-memory claim"
+}

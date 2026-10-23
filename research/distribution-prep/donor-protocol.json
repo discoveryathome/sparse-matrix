@@ -1,0 +1,14 @@
+{
+  "cases": [
+    "bcsstk04",
+    "bcsstk06",
+    "bcsstk08",
+    "geometric-2",
+    "banded_random-0",
+    "685_bus"
+  ],
+  "seed": 2301,
+  "attempts": 2048,
+  "frontier": "v001,best of all inherited verified orders",
+  "rule": "verify all outputs; preserve nulls; promote all valid strict improvements together to v002; no extra attempts based on outcomes"
+}

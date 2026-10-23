@@ -1,0 +1,306 @@
+[
+  {
+    "name": "494_bus",
+    "family": "historical_power_network",
+    "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/psadmit/494_bus.mtx.gz",
+    "input": "data/empirical/494_bus.mtx.gz",
+    "sha256": "55a2551e699253653e1b297467da1fdb7b647f850b05eb2c6647f8d66a1d8748",
+    "metadata": "https://sparse.tamu.edu/HB/494_bus",
+    "n": 494,
+    "baseline": [
+      1414,
+      4812,
+      10
+    ],
+    "baseline_method": "amd",
+    "baselines": {
+      "amd": [
+        1414,
+        4812,
+        10
+      ],
+      "metis-1": [
+        1505,
+        5699,
+        12
+      ],
+      "metis-17": [
+        1495,
+        5515,
+        12
+      ],
+      "metis-43": [
+        1570,
+        6622,
+        13
+      ],
+      "metis-79": [
+        1582,
+        6844,
+        14
+      ]
+    },
+    "trials": [
+      {
+        "seed": 419,
+        "score": [
+          1412,
+          4794,
+          10
+        ],
+        "seconds": 0.042755500064231455,
+        "certificate": "results/empirical/494_bus-419.json"
+      },
+      {
+        "seed": 503,
+        "score": [
+          1414,
+          4812,
+          10
+        ],
+        "seconds": 0.04179758403915912,
+        "certificate": "results/empirical/494_bus-503.json"
+      }
+    ],
+    "candidate": {
+      "seed": 419,
+      "score": [
+        1412,
+        4794,
+        10
+      ],
+      "seconds": 0.042755500064231455,
+      "certificate": "results/empirical/494_bus-419.json"
+    },
+    "cholmod_symbolic_lnnz": 1412,
+    "backward_error": 7.878053637991968e-17
+  },
+  {
+    "name": "662_bus",
+    "family": "historical_power_network",
+    "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/psadmit/662_bus.mtx.gz",
+    "input": "data/empirical/662_bus.mtx.gz",
+    "sha256": "6494b1289470fd880d49ed4c0c6343edf1b5b787ff25191fccbac6fba72e1e98",
+    "metadata": "https://sparse.tamu.edu/HB/662_bus",
+    "n": 662,
+    "baseline": [
+      2549,
+      12937,
+      14
+    ],
+    "baseline_method": "amd",
+    "baselines": {
+      "amd": [
+        2549,
+        12937,
+        14
+      ],
+      "metis-1": [
+        2833,
+        17657,
+        17
+      ],
+      "metis-17": [
+        2791,
+        16981,
+        17
+      ],
+      "metis-43": [
+        2793,
+        17337,
+        19
+      ],
+      "metis-79": [
+        2820,
+        17634,
+        19
+      ]
+    },
+    "trials": [
+      {
+        "seed": 419,
+        "score": [
+          2549,
+          12937,
+          14
+        ],
+        "seconds": 0.0527662499807775,
+        "certificate": "results/empirical/662_bus-419.json"
+      },
+      {
+        "seed": 503,
+        "score": [
+          2549,
+          12937,
+          14
+        ],
+        "seconds": 0.0524930419633165,
+        "certificate": "results/empirical/662_bus-503.json"
+      }
+    ],
+    "candidate": {
+      "seed": 419,
+      "score": [
+        2549,
+        12937,
+        14
+      ],
+      "seconds": 0.0527662499807775,
+      "certificate": "results/empirical/662_bus-419.json"
+    },
+    "cholmod_symbolic_lnnz": 2549,
+    "backward_error": 6.673853739325147e-17
+  },
+  {
+    "name": "685_bus",
+    "family": "historical_power_network",
+    "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/psadmit/685_bus.mtx.gz",
+    "input": "data/empirical/685_bus.mtx.gz",
+    "sha256": "443dfa2e58126d19b68e648699e3d5fabd7cb917c059eae196d0b8829ae7c73a",
+    "metadata": "https://sparse.tamu.edu/HB/685_bus",
+    "n": 685,
+    "baseline": [
+      3650,
+      25150,
+      16
+    ],
+    "baseline_method": "amd",
+    "baselines": {
+      "amd": [
+        3650,
+        25150,
+        16
+      ],
+      "metis-1": [
+        3994,
+        32034,
+        19
+      ],
+      "metis-17": [
+        3975,
+        31433,
+        20
+      ],
+      "metis-43": [
+        3962,
+        31574,
+        22
+      ],
+      "metis-79": [
+        3965,
+        31567,
+        20
+      ]
+    },
+    "trials": [
+      {
+        "seed": 419,
+        "score": [
+          3630,
+          24672,
+          16
+        ],
+        "seconds": 0.06717141601257026,
+        "certificate": "results/empirical/685_bus-419.json"
+      },
+      {
+        "seed": 503,
+        "score": [
+          3650,
+          25146,
+          16
+        ],
+        "seconds": 0.06878266693092883,
+        "certificate": "results/empirical/685_bus-503.json"
+      }
+    ],
+    "candidate": {
+      "seed": 419,
+      "score": [
+        3630,
+        24672,
+        16
+      ],
+      "seconds": 0.06717141601257026,
+      "certificate": "results/empirical/685_bus-419.json"
+    },
+    "cholmod_symbolic_lnnz": 3630,
+    "backward_error": 4.4903806307265655e-17
+  },
+  {
+    "name": "1138_bus",
+    "family": "historical_power_network",
+    "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/psadmit/1138_bus.mtx.gz",
+    "input": "data/empirical/1138_bus.mtx.gz",
+    "sha256": "0544e52ed96893ae82c5a7f9051d662e04a1c27fe57768578de09932381fd963",
+    "metadata": "https://sparse.tamu.edu/HB/1138_bus",
+    "n": 1138,
+    "baseline": [
+      3265,
+      10949,
+      11
+    ],
+    "baseline_method": "amd",
+    "baselines": {
+      "amd": [
+        3265,
+        10949,
+        11
+      ],
+      "metis-1": [
+        3606,
+        14986,
+        15
+      ],
+      "metis-17": [
+        3689,
+        16435,
+        15
+      ],
+      "metis-43": [
+        3622,
+        15216,
+        15
+      ],
+      "metis-79": [
+        3636,
+        15482,
+        15
+      ]
+    },
+    "trials": [
+      {
+        "seed": 419,
+        "score": [
+          3263,
+          10917,
+          11
+        ],
+        "seconds": 0.14032500004395843,
+        "certificate": "results/empirical/1138_bus-419.json"
+      },
+      {
+        "seed": 503,
+        "score": [
+          3265,
+          10949,
+          11
+        ],
+        "seconds": 0.154882250004448,
+        "certificate": "results/empirical/1138_bus-503.json"
+      }
+    ],
+    "candidate": {
+      "seed": 419,
+      "score": [
+        3263,
+        10917,
+        11
+      ],
+      "seconds": 0.14032500004395843,
+      "certificate": "results/empirical/1138_bus-419.json"
+    },
+    "cholmod_symbolic_lnnz": 3263,
+    "backward_error": 6.768538814509791e-17
+  }
+]

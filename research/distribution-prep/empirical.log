@@ -1,0 +1,12 @@
+/Users/colkitt/discover-work/incubatedPilots/exploratory-pilots-20261023/sparse-matrix/tools/qualify_empirical.py:12: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  a=csc_matrix(mmread(ROOT/source['input']));a.eliminate_zeros();a.sort_indices();assert (a-a.T).nnz==0;g=(a!=0).astype(np.int8);g.setdiag(0);g.eliminate_zeros();g.sort_indices();n=a.shape[0];f=Fast(g);adj=[g.getrow(i).indices.tolist() for i in range(n)];orders={'amd':amd(g)}
+494_bus [1414, 4812, 10] [1412, 4794, 10]
+662_bus [2549, 12937, 14] [2549, 12937, 14]
+685_bus [3650, 25150, 16] [3630, 24672, 16]
+1138_bus [3265, 10949, 11] [3263, 10917, 11]

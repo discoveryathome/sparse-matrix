@@ -1,0 +1,19 @@
+{
+  "verified": true,
+  "matrix_id": "banded_random-0",
+  "frontier_version": "v001",
+  "score": [
+    3044,
+    53314,
+    26
+  ],
+  "inherited_score": [
+    3094,
+    55586,
+    28
+  ],
+  "improves_submitted_frontier": true,
+  "improves_current_frontier": true,
+  "primary_reduction": 50,
+  "claim": "Symbolic ordering result; no automatic numerical runtime or peak-memory claim"
+}

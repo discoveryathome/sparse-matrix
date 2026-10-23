@@ -1,0 +1,242 @@
+[
+  {
+    "name": "bcsstk01",
+    "input": "data/round2/bcsstk01.npz",
+    "sha256": "520237e469208ef07d1ff52160442749b33f7f5b397c2cc8f91bf7eb3a1b87cd",
+    "pattern_sha256": "22d515a3af035024bd0e642e9f4ffb71c31704a54241395884331607c643db56",
+    "family": "historical_structural",
+    "split": "exposed",
+    "n": 48,
+    "source": "data/bcsstk01.mtx.gz"
+  },
+  {
+    "name": "bcsstk02",
+    "input": "data/round2/bcsstk02.npz",
+    "sha256": "a3e387de83cc090cae67d21982a670dd4a69c6d913ecbf0a5ecc7606bacd1b40",
+    "pattern_sha256": "bf2fff905625686bbb002e5285d55a926b6dfc31ca8017a17f9127f928b64282",
+    "family": "historical_structural",
+    "split": "exposed",
+    "n": 66,
+    "source": "data/bcsstk02.mtx.gz"
+  },
+  {
+    "name": "bcsstk03",
+    "input": "data/round2/bcsstk03.npz",
+    "sha256": "0ade415508a3d047da39b75492728007d36bc417d14e9d5f8c78cbeb86950d8e",
+    "pattern_sha256": "41936f529b5bfccaecee09ef978a08409c247b23854ab2f63050cb14d566d596",
+    "family": "historical_structural",
+    "split": "exposed",
+    "n": 112,
+    "source": "data/bcsstk03.mtx.gz"
+  },
+  {
+    "name": "bcsstk04",
+    "input": "data/round2/bcsstk04.npz",
+    "sha256": "7208e4afe3e9e3ab75318f91d7cb9d4e7c01c767154dd742460ec2834d471f95",
+    "pattern_sha256": "1c4780c8dce6875deede519cd5f0dbaa6e59f9a01ca296851e1b3549b8b80543",
+    "family": "historical_structural",
+    "split": "exposed",
+    "n": 132,
+    "source": "data/bcsstk04.mtx.gz"
+  },
+  {
+    "name": "bcsstk05",
+    "input": "data/round2/bcsstk05.npz",
+    "sha256": "f6cbf9c984d101a5e4487ba98ff28ed7994dbe35228efd33724c04f32e43c1e7",
+    "pattern_sha256": "7d79de47f0b1d4b7ad431aa8c2f56565bc2f6e995fe211d3fb2ffaae1a9aa9b6",
+    "family": "historical_structural",
+    "split": "exposed",
+    "n": 153,
+    "source": "data/bcsstk05.mtx.gz"
+  },
+  {
+    "name": "bcsstk06",
+    "input": "data/round2/bcsstk06.npz",
+    "sha256": "57d45211edaabbb16dfb5eeb46b299ca3ac00b9f1ffcabbbfd8246a3f4978493",
+    "pattern_sha256": "0460cbf6ecbf6046441d9e9fe2cad3eecdbc13b1bd403594bd16072febf29dde",
+    "family": "historical_structural",
+    "split": "exposed",
+    "n": 420,
+    "source": "data/bcsstk06.mtx.gz"
+  },
+  {
+    "name": "bcsstk08",
+    "input": "data/round2/bcsstk08.npz",
+    "sha256": "2d86622de17d22a1d4c9c2ae19e318c9e1f2d764e38e5b82f6f50b3416fe89b4",
+    "pattern_sha256": "0aad64c3ebb8ccc40e453f5aba0dc6fafef6a6c44d8fafc85b35a309da4ff52c",
+    "family": "historical_structural",
+    "split": "exposed",
+    "n": 1074,
+    "source": "data/bcsstk08.mtx.gz"
+  },
+  {
+    "name": "bcsstk09",
+    "input": "data/round2/bcsstk09.npz",
+    "sha256": "96c89db1dae4fae372655d8d22b24b8c60dd1b7a3dcb036ea59925c4da528e38",
+    "pattern_sha256": "680f9c4171fd231d6c3ca5c1e5c96524c6fa72eb36abaa8f1774e9ef277c5170",
+    "family": "historical_structural",
+    "split": "heldout",
+    "n": 1083,
+    "source": "data/round2/bcsstk09.mtx.gz"
+  },
+  {
+    "name": "grid2d-0",
+    "input": "data/round2/grid2d-0.npz",
+    "sha256": "a4c5a9d6483154eb15741bf00fbe7a6e932117217dc89d8e2bcdd01bb983190c",
+    "pattern_sha256": "45457adda6c696038514724a54d4acd3e5fca01c38e68f0a94fd4a2f0ed2900b",
+    "family": "grid2d",
+    "split": "development",
+    "n": 256,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "grid2d-1",
+    "input": "data/round2/grid2d-1.npz",
+    "sha256": "6531ab8676afc0aa81ff8ab2b68a76faefd420c273f29b26db8b604ed783ea99",
+    "pattern_sha256": "0110896fa8c43ed04cee865efc0eec2a6d6fa5e376b3d17150abb55de639815d",
+    "family": "grid2d",
+    "split": "development",
+    "n": 400,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "grid2d-2",
+    "input": "data/round2/grid2d-2.npz",
+    "sha256": "e7daeb9b01afccb7af8534c4515064d8cb121325ef576cd8e98dfbdd87164c96",
+    "pattern_sha256": "5ef13c31c068fef17e9eaf0b00236f090228735969a030b88bfafc453342117f",
+    "family": "grid2d",
+    "split": "heldout",
+    "n": 576,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "grid2d-3",
+    "input": "data/round2/grid2d-3.npz",
+    "sha256": "7fd6856b13d4706e4273a82b62f79c7e57d1f72f72b5fae297dd56b10d337b78",
+    "pattern_sha256": "e81bb2c0f696abc6dc8024bb11fb6ba5d7bcfd1a14864838c01aa1ddb04acae0",
+    "family": "grid2d",
+    "split": "heldout",
+    "n": 784,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "grid3d-0",
+    "input": "data/round2/grid3d-0.npz",
+    "sha256": "eaefeb7c0cfa74b2efbe28e16e03d18ea348d811274140da84ae968c570402ad",
+    "pattern_sha256": "1332ee17ffda4e91206f59dd2708ccdfa62a82a6004f7b57bb05e797cf3ff0f8",
+    "family": "grid3d",
+    "split": "development",
+    "n": 125,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "grid3d-1",
+    "input": "data/round2/grid3d-1.npz",
+    "sha256": "4c3dae9013cb4dbef501bd855ce98219540cfb779b598677a358393db6fc8d1a",
+    "pattern_sha256": "b9fef1bb85d9573101d84339db165c671f53ea7cd0ad04db29329ce9d4d652de",
+    "family": "grid3d",
+    "split": "development",
+    "n": 216,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "grid3d-2",
+    "input": "data/round2/grid3d-2.npz",
+    "sha256": "eb3e658bf800b059482b378ce387de78d21bf64a4a7c66e9985111e2455b1b02",
+    "pattern_sha256": "f8024f825ed182d9bdf7a3b833989a0743f6bc28e59ac1bac62e05d763120f25",
+    "family": "grid3d",
+    "split": "heldout",
+    "n": 343,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "grid3d-3",
+    "input": "data/round2/grid3d-3.npz",
+    "sha256": "1da5b884eba4f349147dd62697ffafafe2fb7f2aea26bdc84d446ee1ea1f6265",
+    "pattern_sha256": "2c1ad37706cb2ea3d879a61d9b6fba215313e19c5a6420f08b00429845b4c3a8",
+    "family": "grid3d",
+    "split": "heldout",
+    "n": 512,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "geometric-0",
+    "input": "data/round2/geometric-0.npz",
+    "sha256": "4dcb1b6eaac649142ec3c14a2315b8bc9cf301a8da1f8b724f6d48cfddd9dff1",
+    "pattern_sha256": "8cb9a79e29ad7e73bc5da5f78257a3636a4a9b27c3982cafd5297a5801f7dcec",
+    "family": "geometric",
+    "split": "development",
+    "n": 150,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "geometric-1",
+    "input": "data/round2/geometric-1.npz",
+    "sha256": "59dd72340df3256bfa190173403fa978bda368c4d8ad19905f983e0e2a977792",
+    "pattern_sha256": "d7594409002733e42b11d7197f545a2e8ae9bfdfa27bcf13f0c3c8d22b465b55",
+    "family": "geometric",
+    "split": "development",
+    "n": 250,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "geometric-2",
+    "input": "data/round2/geometric-2.npz",
+    "sha256": "2dacbb14ee17a069ecf3cdb7a49ee7038087b962479ca97d2be36363a674c545",
+    "pattern_sha256": "dc66f53dc64ce3108906c6c025f670b1ba50a4e9072539c841e42abef7b77fe0",
+    "family": "geometric",
+    "split": "heldout",
+    "n": 350,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "geometric-3",
+    "input": "data/round2/geometric-3.npz",
+    "sha256": "d264f56de938fa45f14266d70938099dcae55ec1880b46e61d6f41d0a6a36a96",
+    "pattern_sha256": "99b5784a2515713809894a263fe94ca9197f78a8d07fcbe27f53d916ad90be8e",
+    "family": "geometric",
+    "split": "heldout",
+    "n": 450,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "banded_random-0",
+    "input": "data/round2/banded_random-0.npz",
+    "sha256": "e8dbaa99ad82b274b411c1bbd23b7cb28ecec1c0a7a2a06cc61eaa69e1f853c6",
+    "pattern_sha256": "c1268eb512b35f24b52114ed449682a9fba6eb0dcae09cdff8c55e2e1020011a",
+    "family": "banded_random",
+    "split": "development",
+    "n": 200,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "banded_random-1",
+    "input": "data/round2/banded_random-1.npz",
+    "sha256": "c948e8173d4379d58442e5c457b3914ee3d103708991f1a6027e760a3624f65e",
+    "pattern_sha256": "298425d0def4a35c7272e29b503b332ddaedebc11b610c5f3547b06e0c487f60",
+    "family": "banded_random",
+    "split": "development",
+    "n": 300,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "banded_random-2",
+    "input": "data/round2/banded_random-2.npz",
+    "sha256": "fc2b3a6e0a131d27dc763919c21112da45be4805e4d3ed24857f7d3b341b08ea",
+    "pattern_sha256": "866cd67ebd65488b24b2320a42767a0cc0ae3d81e0e4fab5f48def3224deb40d",
+    "family": "banded_random",
+    "split": "heldout",
+    "n": 400,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  },
+  {
+    "name": "banded_random-3",
+    "input": "data/round2/banded_random-3.npz",
+    "sha256": "e4de9a85491793d5d2164e6fae0c863a71a72c561af65a0dfc31c5957f681612",
+    "pattern_sha256": "9e710df5108a8d2ae7add6f618304d978f73d544d967fb4dda5727fb57cf8d3c",
+    "family": "banded_random",
+    "split": "heldout",
+    "n": 500,
+    "source": "Pilot-generated SPD discretization/graph Laplacian plus positive diagonal; not empirical application data"
+  }
+]

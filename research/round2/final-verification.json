@@ -1,0 +1,773 @@
+{
+  "count": 64,
+  "checks": [
+    {
+      "certificate": "results/initial/bcsstk01.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 48,
+        "score": [
+          482,
+          5690,
+          17
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk01.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 48,
+        "score": [
+          480,
+          5642,
+          17
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk02.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 66,
+        "score": [
+          2211,
+          98021,
+          66
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk02.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 66,
+        "score": [
+          2211,
+          98021,
+          66
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk03.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 112,
+        "score": [
+          384,
+          1360,
+          4
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk03.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 112,
+        "score": [
+          384,
+          1360,
+          4
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk04.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 132,
+        "score": [
+          3273,
+          89415,
+          38
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk04.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 132,
+        "score": [
+          3280,
+          89838,
+          38
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk05.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 153,
+        "score": [
+          2326,
+          39118,
+          25
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk05.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 153,
+        "score": [
+          2324,
+          39064,
+          25
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk06.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 420,
+        "score": [
+          11192,
+          386858,
+          55
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk06.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 420,
+        "score": [
+          11202,
+          388590,
+          55
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk07.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 420,
+        "score": [
+          11192,
+          386858,
+          55
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk07.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 420,
+        "score": [
+          11202,
+          388590,
+          55
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk08.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 1074,
+        "score": [
+          30957,
+          1773733,
+          106
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk08.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 1074,
+        "score": [
+          30969,
+          1777383,
+          106
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk01-419.json",
+      "verification": {
+        "verified": true,
+        "n": 48,
+        "score": [
+          470,
+          5400,
+          17
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk01-503.json",
+      "verification": {
+        "verified": true,
+        "n": 48,
+        "score": [
+          476,
+          5572,
+          17
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk02-419.json",
+      "verification": {
+        "verified": true,
+        "n": 66,
+        "score": [
+          2211,
+          98021,
+          66
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk02-503.json",
+      "verification": {
+        "verified": true,
+        "n": 66,
+        "score": [
+          2211,
+          98021,
+          66
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk03-419.json",
+      "verification": {
+        "verified": true,
+        "n": 112,
+        "score": [
+          384,
+          1360,
+          4
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk03-503.json",
+      "verification": {
+        "verified": true,
+        "n": 112,
+        "score": [
+          384,
+          1360,
+          4
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk04-419.json",
+      "verification": {
+        "verified": true,
+        "n": 132,
+        "score": [
+          3273,
+          89415,
+          38
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk04-503.json",
+      "verification": {
+        "verified": true,
+        "n": 132,
+        "score": [
+          3280,
+          89838,
+          38
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk05-419.json",
+      "verification": {
+        "verified": true,
+        "n": 153,
+        "score": [
+          2326,
+          39118,
+          25
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk05-503.json",
+      "verification": {
+        "verified": true,
+        "n": 153,
+        "score": [
+          2324,
+          39064,
+          25
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk06-419.json",
+      "verification": {
+        "verified": true,
+        "n": 420,
+        "score": [
+          11134,
+          382534,
+          54
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk06-503.json",
+      "verification": {
+        "verified": true,
+        "n": 420,
+        "score": [
+          10930,
+          368952,
+          55
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk08-419.json",
+      "verification": {
+        "verified": true,
+        "n": 1074,
+        "score": [
+          30957,
+          1773733,
+          106
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk08-503.json",
+      "verification": {
+        "verified": true,
+        "n": 1074,
+        "score": [
+          30969,
+          1777383,
+          106
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk09-419.json",
+      "verification": {
+        "verified": true,
+        "n": 1083,
+        "score": [
+          47125,
+          2656665,
+          94
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/bcsstk09-503.json",
+      "verification": {
+        "verified": true,
+        "n": 1083,
+        "score": [
+          47148,
+          2659696,
+          94
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid2d-0-419.json",
+      "verification": {
+        "verified": true,
+        "n": 256,
+        "score": [
+          2111,
+          22803,
+          22
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid2d-0-503.json",
+      "verification": {
+        "verified": true,
+        "n": 256,
+        "score": [
+          2113,
+          22875,
+          22
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid2d-1-419.json",
+      "verification": {
+        "verified": true,
+        "n": 400,
+        "score": [
+          3702,
+          48314,
+          28
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid2d-1-503.json",
+      "verification": {
+        "verified": true,
+        "n": 400,
+        "score": [
+          3702,
+          48314,
+          28
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid2d-2-419.json",
+      "verification": {
+        "verified": true,
+        "n": 576,
+        "score": [
+          5782,
+          86794,
+          35
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid2d-2-503.json",
+      "verification": {
+        "verified": true,
+        "n": 576,
+        "score": [
+          5782,
+          86766,
+          35
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid2d-3-419.json",
+      "verification": {
+        "verified": true,
+        "n": 784,
+        "score": [
+          8516,
+          147916,
+          41
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid2d-3-503.json",
+      "verification": {
+        "verified": true,
+        "n": 784,
+        "score": [
+          8516,
+          147892,
+          41
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid3d-0-419.json",
+      "verification": {
+        "verified": true,
+        "n": 125,
+        "score": [
+          1321,
+          20063,
+          29
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid3d-0-503.json",
+      "verification": {
+        "verified": true,
+        "n": 125,
+        "score": [
+          1323,
+          20067,
+          28
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid3d-1-419.json",
+      "verification": {
+        "verified": true,
+        "n": 216,
+        "score": [
+          2973,
+          66889,
+          43
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid3d-1-503.json",
+      "verification": {
+        "verified": true,
+        "n": 216,
+        "score": [
+          2973,
+          66889,
+          43
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid3d-2-419.json",
+      "verification": {
+        "verified": true,
+        "n": 343,
+        "score": [
+          5745,
+          173961,
+          59
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid3d-2-503.json",
+      "verification": {
+        "verified": true,
+        "n": 343,
+        "score": [
+          5740,
+          173568,
+          59
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid3d-3-419.json",
+      "verification": {
+        "verified": true,
+        "n": 512,
+        "score": [
+          10470,
+          401322,
+          71
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/grid3d-3-503.json",
+      "verification": {
+        "verified": true,
+        "n": 512,
+        "score": [
+          10532,
+          405956,
+          72
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/geometric-0-419.json",
+      "verification": {
+        "verified": true,
+        "n": 150,
+        "score": [
+          3496,
+          124958,
+          64
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/geometric-0-503.json",
+      "verification": {
+        "verified": true,
+        "n": 150,
+        "score": [
+          3500,
+          125456,
+          65
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/geometric-1-419.json",
+      "verification": {
+        "verified": true,
+        "n": 250,
+        "score": [
+          9071,
+          565325,
+          105
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/geometric-1-503.json",
+      "verification": {
+        "verified": true,
+        "n": 250,
+        "score": [
+          9069,
+          565275,
+          104
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/geometric-2-419.json",
+      "verification": {
+        "verified": true,
+        "n": 350,
+        "score": [
+          16645,
+          1365305,
+          137
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/geometric-2-503.json",
+      "verification": {
+        "verified": true,
+        "n": 350,
+        "score": [
+          16691,
+          1375067,
+          137
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/geometric-3-419.json",
+      "verification": {
+        "verified": true,
+        "n": 450,
+        "score": [
+          25766,
+          2606860,
+          162
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/geometric-3-503.json",
+      "verification": {
+        "verified": true,
+        "n": 450,
+        "score": [
+          25682,
+          2589002,
+          161
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/banded_random-0-419.json",
+      "verification": {
+        "verified": true,
+        "n": 200,
+        "score": [
+          3098,
+          55842,
+          29
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/banded_random-0-503.json",
+      "verification": {
+        "verified": true,
+        "n": 200,
+        "score": [
+          3094,
+          55586,
+          28
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/banded_random-1-419.json",
+      "verification": {
+        "verified": true,
+        "n": 300,
+        "score": [
+          5210,
+          106510,
+          35
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/banded_random-1-503.json",
+      "verification": {
+        "verified": true,
+        "n": 300,
+        "score": [
+          5214,
+          106486,
+          35
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/banded_random-2-419.json",
+      "verification": {
+        "verified": true,
+        "n": 400,
+        "score": [
+          6635,
+          126753,
+          28
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/banded_random-2-503.json",
+      "verification": {
+        "verified": true,
+        "n": 400,
+        "score": [
+          6631,
+          126637,
+          28
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/banded_random-3-419.json",
+      "verification": {
+        "verified": true,
+        "n": 500,
+        "score": [
+          8697,
+          177333,
+          32
+        ]
+      }
+    },
+    {
+      "certificate": "results/round2/banded_random-3-503.json",
+      "verification": {
+        "verified": true,
+        "n": 500,
+        "score": [
+          8740,
+          179452,
+          33
+        ]
+      }
+    }
+  ]
+}

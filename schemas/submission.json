@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema",
+    "matrix_id",
+    "frontier_version",
+    "catalog_sha256",
+    "input_sha256",
+    "order",
+    "score",
+    "budget",
+    "method"
+  ],
+  "properties": {
+    "schema": {
+      "const": "sparse-submission/v1"
+    },
+    "matrix_id": {
+      "type": "string"
+    },
+    "frontier_version": {
+      "type": "string"
+    },
+    "catalog_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "input_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "order": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "score": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "method": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2000
+    },
+    "budget": {
+      "type": "object",
+      "required": [
+        "evaluations",
+        "seconds"
+      ],
+      "properties": {
+        "evaluations": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "seconds": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

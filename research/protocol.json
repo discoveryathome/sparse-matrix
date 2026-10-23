@@ -1,0 +1,23 @@
+{
+  "objective": "minimize symbolic Cholesky L nnz; tie-break sum of squared column counts; no measured solver speedup claim",
+  "inputs": "HB bcsstk01..08, chosen before measurements; narrow structural-engineering family",
+  "baselines": [
+    "natural",
+    "RCM",
+    "SuiteSparse AMD",
+    "METIS nested dissection"
+  ],
+  "inherited": "best baseline per instance by primary score",
+  "seeds": [
+    419,
+    503
+  ],
+  "attempts_per_seed": 512,
+  "moves": [
+    "swap",
+    "reverse up to 17 entries",
+    "insertion"
+  ],
+  "verification": "separate Python set-based elimination; fast C search evaluator; exact integer scores",
+  "exposure": "all development; no unseen generalization claim"
+}

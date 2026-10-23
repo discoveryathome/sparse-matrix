@@ -1,0 +1,9 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "python": "Python 3.12.11",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+  "trial_environment": "shared .base-venv; root .venv initial official-verifier build was interrupted; see logs",
+  "timing": "shared host with unrelated workloads; elapsed times are observations, not cross-project or algorithm speed rankings",
+  "author": "preparing Codex agent; not independent human review"
+}

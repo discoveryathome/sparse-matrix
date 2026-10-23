@@ -1,0 +1,17 @@
+/Users/colkitt/discover-work/incubatedPilots/exploratory-pilots-20261023/sparse-matrix/tools/prepare_round2.py:15: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  save(name,mmread(p),'historical_structural','heldout' if n==9 else 'exposed',str(p.relative_to(ROOT)))
+/Users/colkitt/discover-work/incubatedPilots/exploratory-pilots-20261023/sparse-matrix/tools/prepare_round2.py:15: DeprecationWarning: The default value for `spmatrix` is changing to `False` in v1.20.
+             That means the default return type will be a sparse array.
+             Unless you use * instead of @, ** for matrix power, or you depend
+             on 2D shapes from e.g. `A.sum(axis=0)` it may not matter to you.
+             See the spmatrix to sparray migration guide for details.
+             https://docs.scipy.org/doc/scipy/reference/sparse.migration_to_sparray.html
+             
+  save(name,mmread(p),'historical_structural','heldout' if n==9 else 'exposed',str(p.relative_to(ROOT)))
+prepared 24

@@ -1,0 +1,6 @@
+{
+  "status": "not_ranked",
+  "reason": "Shared-host exploratory timings do not establish broad speedup. Performance reports require hardware, environment, search overhead, repeated factorization count and controlled baselines.",
+  "existing_evidence": "results/round2/summary.json",
+  "separate_from_symbolic_acceptance": true
+}

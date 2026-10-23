@@ -1,0 +1,994 @@
+[
+  {
+    "case": "bcsstk01.mtx",
+    "n": 48,
+    "seed": 419,
+    "baselines": {
+      "natural": {
+        "score": [
+          877,
+          20151,
+          33
+        ],
+        "ordering_seconds": 3.2080570235848427e-06
+      },
+      "rcm": {
+        "score": [
+          665,
+          11083,
+          22
+        ],
+        "ordering_seconds": 0.0003451249795034528
+      },
+      "amd": {
+        "score": [
+          489,
+          6009,
+          20
+        ],
+        "ordering_seconds": 0.025894499965943396
+      },
+      "metis": {
+        "score": [
+          482,
+          5690,
+          17
+        ],
+        "ordering_seconds": 0.002093166927807033
+      }
+    },
+    "inherited": "metis",
+    "initial": [
+      482,
+      5690,
+      17
+    ],
+    "candidate": [
+      482,
+      5690,
+      17
+    ],
+    "attempts": 512,
+    "seconds": 0.009309040964581072,
+    "verified": {
+      "verified": true,
+      "n": 48,
+      "score": [
+        482,
+        5690,
+        17
+      ]
+    },
+    "certificate": "results/initial/bcsstk01.mtx-419.json"
+  },
+  {
+    "case": "bcsstk01.mtx",
+    "n": 48,
+    "seed": 503,
+    "baselines": {
+      "natural": {
+        "score": [
+          877,
+          20151,
+          33
+        ],
+        "ordering_seconds": 3.2080570235848427e-06
+      },
+      "rcm": {
+        "score": [
+          665,
+          11083,
+          22
+        ],
+        "ordering_seconds": 0.0003451249795034528
+      },
+      "amd": {
+        "score": [
+          489,
+          6009,
+          20
+        ],
+        "ordering_seconds": 0.025894499965943396
+      },
+      "metis": {
+        "score": [
+          482,
+          5690,
+          17
+        ],
+        "ordering_seconds": 0.002093166927807033
+      }
+    },
+    "inherited": "metis",
+    "initial": [
+      482,
+      5690,
+      17
+    ],
+    "candidate": [
+      480,
+      5642,
+      17
+    ],
+    "attempts": 512,
+    "seconds": 0.00916645908728242,
+    "verified": {
+      "verified": true,
+      "n": 48,
+      "score": [
+        480,
+        5642,
+        17
+      ]
+    },
+    "certificate": "results/initial/bcsstk01.mtx-503.json"
+  },
+  {
+    "case": "bcsstk02.mtx",
+    "n": 66,
+    "seed": 419,
+    "baselines": {
+      "natural": {
+        "score": [
+          2211,
+          98021,
+          66
+        ],
+        "ordering_seconds": 4.0839659050107e-06
+      },
+      "rcm": {
+        "score": [
+          2211,
+          98021,
+          66
+        ],
+        "ordering_seconds": 9.324995335191488e-05
+      },
+      "amd": {
+        "score": [
+          2211,
+          98021,
+          66
+        ],
+        "ordering_seconds": 0.0024632499553263187
+      },
+      "metis": {
+        "score": [
+          2211,
+          98021,
+          66
+        ],
+        "ordering_seconds": 0.000788999954238534
+      }
+    },
+    "inherited": "natural",
+    "initial": [
+      2211,
+      98021,
+      66
+    ],
+    "candidate": [
+      2211,
+      98021,
+      66
+    ],
+    "attempts": 512,
+    "seconds": 0.017231083940714598,
+    "verified": {
+      "verified": true,
+      "n": 66,
+      "score": [
+        2211,
+        98021,
+        66
+      ]
+    },
+    "certificate": "results/initial/bcsstk02.mtx-419.json"
+  },
+  {
+    "case": "bcsstk02.mtx",
+    "n": 66,
+    "seed": 503,
+    "baselines": {
+      "natural": {
+        "score": [
+          2211,
+          98021,
+          66
+        ],
+        "ordering_seconds": 4.0839659050107e-06
+      },
+      "rcm": {
+        "score": [
+          2211,
+          98021,
+          66
+        ],
+        "ordering_seconds": 9.324995335191488e-05
+      },
+      "amd": {
+        "score": [
+          2211,
+          98021,
+          66
+        ],
+        "ordering_seconds": 0.0024632499553263187
+      },
+      "metis": {
+        "score": [
+          2211,
+          98021,
+          66
+        ],
+        "ordering_seconds": 0.000788999954238534
+      }
+    },
+    "inherited": "natural",
+    "initial": [
+      2211,
+      98021,
+      66
+    ],
+    "candidate": [
+      2211,
+      98021,
+      66
+    ],
+    "attempts": 512,
+    "seconds": 0.0509410829981789,
+    "verified": {
+      "verified": true,
+      "n": 66,
+      "score": [
+        2211,
+        98021,
+        66
+      ]
+    },
+    "certificate": "results/initial/bcsstk02.mtx-503.json"
+  },
+  {
+    "case": "bcsstk03.mtx",
+    "n": 112,
+    "seed": 419,
+    "baselines": {
+      "natural": {
+        "score": [
+          384,
+          1360,
+          4
+        ],
+        "ordering_seconds": 3.2919924706220627e-06
+      },
+      "rcm": {
+        "score": [
+          384,
+          1360,
+          4
+        ],
+        "ordering_seconds": 9.116600267589092e-05
+      },
+      "amd": {
+        "score": [
+          384,
+          1360,
+          4
+        ],
+        "ordering_seconds": 0.0007542499806731939
+      },
+      "metis": {
+        "score": [
+          514,
+          2518,
+          6
+        ],
+        "ordering_seconds": 0.00035099999513477087
+      }
+    },
+    "inherited": "natural",
+    "initial": [
+      384,
+      1360,
+      4
+    ],
+    "candidate": [
+      384,
+      1360,
+      4
+    ],
+    "attempts": 512,
+    "seconds": 0.011950207990594208,
+    "verified": {
+      "verified": true,
+      "n": 112,
+      "score": [
+        384,
+        1360,
+        4
+      ]
+    },
+    "certificate": "results/initial/bcsstk03.mtx-419.json"
+  },
+  {
+    "case": "bcsstk03.mtx",
+    "n": 112,
+    "seed": 503,
+    "baselines": {
+      "natural": {
+        "score": [
+          384,
+          1360,
+          4
+        ],
+        "ordering_seconds": 3.2919924706220627e-06
+      },
+      "rcm": {
+        "score": [
+          384,
+          1360,
+          4
+        ],
+        "ordering_seconds": 9.116600267589092e-05
+      },
+      "amd": {
+        "score": [
+          384,
+          1360,
+          4
+        ],
+        "ordering_seconds": 0.0007542499806731939
+      },
+      "metis": {
+        "score": [
+          514,
+          2518,
+          6
+        ],
+        "ordering_seconds": 0.00035099999513477087
+      }
+    },
+    "inherited": "natural",
+    "initial": [
+      384,
+      1360,
+      4
+    ],
+    "candidate": [
+      384,
+      1360,
+      4
+    ],
+    "attempts": 512,
+    "seconds": 0.010692040901631117,
+    "verified": {
+      "verified": true,
+      "n": 112,
+      "score": [
+        384,
+        1360,
+        4
+      ]
+    },
+    "certificate": "results/initial/bcsstk03.mtx-503.json"
+  },
+  {
+    "case": "bcsstk04.mtx",
+    "n": 132,
+    "seed": 419,
+    "baselines": {
+      "natural": {
+        "score": [
+          3763,
+          119189,
+          46
+        ],
+        "ordering_seconds": 2.7919886633753777e-06
+      },
+      "rcm": {
+        "score": [
+          3564,
+          106462,
+          41
+        ],
+        "ordering_seconds": 0.0001231660135090351
+      },
+      "amd": {
+        "score": [
+          3293,
+          90567,
+          38
+        ],
+        "ordering_seconds": 0.0008730419212952256
+      },
+      "metis": {
+        "score": [
+          3652,
+          117966,
+          53
+        ],
+        "ordering_seconds": 0.0009646669495850801
+      }
+    },
+    "inherited": "amd",
+    "initial": [
+      3293,
+      90567,
+      38
+    ],
+    "candidate": [
+      3273,
+      89415,
+      38
+    ],
+    "attempts": 512,
+    "seconds": 0.027362999971956015,
+    "verified": {
+      "verified": true,
+      "n": 132,
+      "score": [
+        3273,
+        89415,
+        38
+      ]
+    },
+    "certificate": "results/initial/bcsstk04.mtx-419.json"
+  },
+  {
+    "case": "bcsstk04.mtx",
+    "n": 132,
+    "seed": 503,
+    "baselines": {
+      "natural": {
+        "score": [
+          3763,
+          119189,
+          46
+        ],
+        "ordering_seconds": 2.7919886633753777e-06
+      },
+      "rcm": {
+        "score": [
+          3564,
+          106462,
+          41
+        ],
+        "ordering_seconds": 0.0001231660135090351
+      },
+      "amd": {
+        "score": [
+          3293,
+          90567,
+          38
+        ],
+        "ordering_seconds": 0.0008730419212952256
+      },
+      "metis": {
+        "score": [
+          3652,
+          117966,
+          53
+        ],
+        "ordering_seconds": 0.0009646669495850801
+      }
+    },
+    "inherited": "amd",
+    "initial": [
+      3293,
+      90567,
+      38
+    ],
+    "candidate": [
+      3280,
+      89838,
+      38
+    ],
+    "attempts": 512,
+    "seconds": 0.02819666697178036,
+    "verified": {
+      "verified": true,
+      "n": 132,
+      "score": [
+        3280,
+        89838,
+        38
+      ]
+    },
+    "certificate": "results/initial/bcsstk04.mtx-503.json"
+  },
+  {
+    "case": "bcsstk05.mtx",
+    "n": 153,
+    "seed": 419,
+    "baselines": {
+      "natural": {
+        "score": [
+          2592,
+          46610,
+          24
+        ],
+        "ordering_seconds": 3.5419361665844917e-06
+      },
+      "rcm": {
+        "score": [
+          2383,
+          39755,
+          21
+        ],
+        "ordering_seconds": 8.475000504404306e-05
+      },
+      "amd": {
+        "score": [
+          2326,
+          39118,
+          25
+        ],
+        "ordering_seconds": 0.0008929579053074121
+      },
+      "metis": {
+        "score": [
+          2804,
+          60734,
+          36
+        ],
+        "ordering_seconds": 0.0009577909950166941
+      }
+    },
+    "inherited": "amd",
+    "initial": [
+      2326,
+      39118,
+      25
+    ],
+    "candidate": [
+      2326,
+      39118,
+      25
+    ],
+    "attempts": 512,
+    "seconds": 0.020319957984611392,
+    "verified": {
+      "verified": true,
+      "n": 153,
+      "score": [
+        2326,
+        39118,
+        25
+      ]
+    },
+    "certificate": "results/initial/bcsstk05.mtx-419.json"
+  },
+  {
+    "case": "bcsstk05.mtx",
+    "n": 153,
+    "seed": 503,
+    "baselines": {
+      "natural": {
+        "score": [
+          2592,
+          46610,
+          24
+        ],
+        "ordering_seconds": 3.5419361665844917e-06
+      },
+      "rcm": {
+        "score": [
+          2383,
+          39755,
+          21
+        ],
+        "ordering_seconds": 8.475000504404306e-05
+      },
+      "amd": {
+        "score": [
+          2326,
+          39118,
+          25
+        ],
+        "ordering_seconds": 0.0008929579053074121
+      },
+      "metis": {
+        "score": [
+          2804,
+          60734,
+          36
+        ],
+        "ordering_seconds": 0.0009577909950166941
+      }
+    },
+    "inherited": "amd",
+    "initial": [
+      2326,
+      39118,
+      25
+    ],
+    "candidate": [
+      2324,
+      39064,
+      25
+    ],
+    "attempts": 512,
+    "seconds": 0.020789082976989448,
+    "verified": {
+      "verified": true,
+      "n": 153,
+      "score": [
+        2324,
+        39064,
+        25
+      ]
+    },
+    "certificate": "results/initial/bcsstk05.mtx-503.json"
+  },
+  {
+    "case": "bcsstk06.mtx",
+    "n": 420,
+    "seed": 419,
+    "baselines": {
+      "natural": {
+        "score": [
+          14282,
+          536292,
+          44
+        ],
+        "ordering_seconds": 7.1659451350569725e-06
+      },
+      "rcm": {
+        "score": [
+          12036,
+          410004,
+          42
+        ],
+        "ordering_seconds": 0.00021883402951061726
+      },
+      "amd": {
+        "score": [
+          11345,
+          400973,
+          55
+        ],
+        "ordering_seconds": 0.001053582993336022
+      },
+      "metis": {
+        "score": [
+          13042,
+          545560,
+          75
+        ],
+        "ordering_seconds": 0.0034075418952852488
+      }
+    },
+    "inherited": "amd",
+    "initial": [
+      11345,
+      400973,
+      55
+    ],
+    "candidate": [
+      11192,
+      386858,
+      55
+    ],
+    "attempts": 512,
+    "seconds": 0.10890720796305686,
+    "verified": {
+      "verified": true,
+      "n": 420,
+      "score": [
+        11192,
+        386858,
+        55
+      ]
+    },
+    "certificate": "results/initial/bcsstk06.mtx-419.json"
+  },
+  {
+    "case": "bcsstk06.mtx",
+    "n": 420,
+    "seed": 503,
+    "baselines": {
+      "natural": {
+        "score": [
+          14282,
+          536292,
+          44
+        ],
+        "ordering_seconds": 7.1659451350569725e-06
+      },
+      "rcm": {
+        "score": [
+          12036,
+          410004,
+          42
+        ],
+        "ordering_seconds": 0.00021883402951061726
+      },
+      "amd": {
+        "score": [
+          11345,
+          400973,
+          55
+        ],
+        "ordering_seconds": 0.001053582993336022
+      },
+      "metis": {
+        "score": [
+          13042,
+          545560,
+          75
+        ],
+        "ordering_seconds": 0.0034075418952852488
+      }
+    },
+    "inherited": "amd",
+    "initial": [
+      11345,
+      400973,
+      55
+    ],
+    "candidate": [
+      11202,
+      388590,
+      55
+    ],
+    "attempts": 512,
+    "seconds": 0.12873583298642188,
+    "verified": {
+      "verified": true,
+      "n": 420,
+      "score": [
+        11202,
+        388590,
+        55
+      ]
+    },
+    "certificate": "results/initial/bcsstk06.mtx-503.json"
+  },
+  {
+    "case": "bcsstk07.mtx",
+    "n": 420,
+    "seed": 419,
+    "baselines": {
+      "natural": {
+        "score": [
+          14282,
+          536292,
+          44
+        ],
+        "ordering_seconds": 8.124974556267262e-06
+      },
+      "rcm": {
+        "score": [
+          12036,
+          410004,
+          42
+        ],
+        "ordering_seconds": 0.00017245893832296133
+      },
+      "amd": {
+        "score": [
+          11345,
+          400973,
+          55
+        ],
+        "ordering_seconds": 0.0011570830829441547
+      },
+      "metis": {
+        "score": [
+          13042,
+          545560,
+          75
+        ],
+        "ordering_seconds": 0.0034038329031318426
+      }
+    },
+    "inherited": "amd",
+    "initial": [
+      11345,
+      400973,
+      55
+    ],
+    "candidate": [
+      11192,
+      386858,
+      55
+    ],
+    "attempts": 512,
+    "seconds": 0.09970570798031986,
+    "verified": {
+      "verified": true,
+      "n": 420,
+      "score": [
+        11192,
+        386858,
+        55
+      ]
+    },
+    "certificate": "results/initial/bcsstk07.mtx-419.json"
+  },
+  {
+    "case": "bcsstk07.mtx",
+    "n": 420,
+    "seed": 503,
+    "baselines": {
+      "natural": {
+        "score": [
+          14282,
+          536292,
+          44
+        ],
+        "ordering_seconds": 8.124974556267262e-06
+      },
+      "rcm": {
+        "score": [
+          12036,
+          410004,
+          42
+        ],
+        "ordering_seconds": 0.00017245893832296133
+      },
+      "amd": {
+        "score": [
+          11345,
+          400973,
+          55
+        ],
+        "ordering_seconds": 0.0011570830829441547
+      },
+      "metis": {
+        "score": [
+          13042,
+          545560,
+          75
+        ],
+        "ordering_seconds": 0.0034038329031318426
+      }
+    },
+    "inherited": "amd",
+    "initial": [
+      11345,
+      400973,
+      55
+    ],
+    "candidate": [
+      11202,
+      388590,
+      55
+    ],
+    "attempts": 512,
+    "seconds": 0.10561266704462469,
+    "verified": {
+      "verified": true,
+      "n": 420,
+      "score": [
+        11202,
+        388590,
+        55
+      ]
+    },
+    "certificate": "results/initial/bcsstk07.mtx-503.json"
+  },
+  {
+    "case": "bcsstk08.mtx",
+    "n": 1074,
+    "seed": 419,
+    "baselines": {
+      "natural": {
+        "score": [
+          234160,
+          59674062,
+          341
+        ],
+        "ordering_seconds": 2.0124949514865875e-05
+      },
+      "rcm": {
+        "score": [
+          174794,
+          43908862,
+          389
+        ],
+        "ordering_seconds": 0.00042091694194823503
+      },
+      "amd": {
+        "score": [
+          31153,
+          1809235,
+          106
+        ],
+        "ordering_seconds": 0.0029148749308660626
+      },
+      "metis": {
+        "score": [
+          34665,
+          2189001,
+          120
+        ],
+        "ordering_seconds": 0.011313334107398987
+      }
+    },
+    "inherited": "amd",
+    "initial": [
+      31153,
+      1809235,
+      106
+    ],
+    "candidate": [
+      30957,
+      1773733,
+      106
+    ],
+    "attempts": 512,
+    "seconds": 0.2633421659702435,
+    "verified": {
+      "verified": true,
+      "n": 1074,
+      "score": [
+        30957,
+        1773733,
+        106
+      ]
+    },
+    "certificate": "results/initial/bcsstk08.mtx-419.json"
+  },
+  {
+    "case": "bcsstk08.mtx",
+    "n": 1074,
+    "seed": 503,
+    "baselines": {
+      "natural": {
+        "score": [
+          234160,
+          59674062,
+          341
+        ],
+        "ordering_seconds": 2.0124949514865875e-05
+      },
+      "rcm": {
+        "score": [
+          174794,
+          43908862,
+          389
+        ],
+        "ordering_seconds": 0.00042091694194823503
+      },
+      "amd": {
+        "score": [
+          31153,
+          1809235,
+          106
+        ],
+        "ordering_seconds": 0.0029148749308660626
+      },
+      "metis": {
+        "score": [
+          34665,
+          2189001,
+          120
+        ],
+        "ordering_seconds": 0.011313334107398987
+      }
+    },
+    "inherited": "amd",
+    "initial": [
+      31153,
+      1809235,
+      106
+    ],
+    "candidate": [
+      30969,
+      1777383,
+      106
+    ],
+    "attempts": 512,
+    "seconds": 0.2354847090318799,
+    "verified": {
+      "verified": true,
+      "n": 1074,
+      "score": [
+        30969,
+        1777383,
+        106
+      ]
+    },
+    "certificate": "results/initial/bcsstk08.mtx-503.json"
+  }
+]

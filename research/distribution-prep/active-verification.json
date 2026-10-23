@@ -1,0 +1,288 @@
+{
+  "verified": true,
+  "version": "v002",
+  "catalog_sha256": "58c310e0c552921383ade57ac5cdbb28cc8ef17f2eea52088f003e99a209d6cb",
+  "instances": 28,
+  "checks": [
+    {
+      "matrix_id": "bcsstk01",
+      "verified": true,
+      "n": 48,
+      "score": [
+        470,
+        5400,
+        17
+      ]
+    },
+    {
+      "matrix_id": "bcsstk02",
+      "verified": true,
+      "n": 66,
+      "score": [
+        2211,
+        98021,
+        66
+      ]
+    },
+    {
+      "matrix_id": "bcsstk03",
+      "verified": true,
+      "n": 112,
+      "score": [
+        384,
+        1360,
+        4
+      ]
+    },
+    {
+      "matrix_id": "bcsstk04",
+      "verified": true,
+      "n": 132,
+      "score": [
+        3258,
+        88532,
+        38
+      ]
+    },
+    {
+      "matrix_id": "bcsstk05",
+      "verified": true,
+      "n": 153,
+      "score": [
+        2324,
+        39064,
+        25
+      ]
+    },
+    {
+      "matrix_id": "bcsstk06",
+      "verified": true,
+      "n": 420,
+      "score": [
+        10843,
+        359887,
+        54
+      ]
+    },
+    {
+      "matrix_id": "bcsstk08",
+      "verified": true,
+      "n": 1074,
+      "score": [
+        30645,
+        1730951,
+        106
+      ]
+    },
+    {
+      "matrix_id": "bcsstk09",
+      "verified": true,
+      "n": 1083,
+      "score": [
+        47125,
+        2656665,
+        94
+      ]
+    },
+    {
+      "matrix_id": "grid2d-0",
+      "verified": true,
+      "n": 256,
+      "score": [
+        2111,
+        22803,
+        22
+      ]
+    },
+    {
+      "matrix_id": "grid2d-1",
+      "verified": true,
+      "n": 400,
+      "score": [
+        3702,
+        48314,
+        28
+      ]
+    },
+    {
+      "matrix_id": "grid2d-2",
+      "verified": true,
+      "n": 576,
+      "score": [
+        5782,
+        86766,
+        35
+      ]
+    },
+    {
+      "matrix_id": "grid2d-3",
+      "verified": true,
+      "n": 784,
+      "score": [
+        8516,
+        147892,
+        41
+      ]
+    },
+    {
+      "matrix_id": "grid3d-0",
+      "verified": true,
+      "n": 125,
+      "score": [
+        1321,
+        20063,
+        29
+      ]
+    },
+    {
+      "matrix_id": "grid3d-1",
+      "verified": true,
+      "n": 216,
+      "score": [
+        2973,
+        66889,
+        43
+      ]
+    },
+    {
+      "matrix_id": "grid3d-2",
+      "verified": true,
+      "n": 343,
+      "score": [
+        5725,
+        166901,
+        52
+      ]
+    },
+    {
+      "matrix_id": "grid3d-3",
+      "verified": true,
+      "n": 512,
+      "score": [
+        10442,
+        392582,
+        70
+      ]
+    },
+    {
+      "matrix_id": "geometric-0",
+      "verified": true,
+      "n": 150,
+      "score": [
+        3482,
+        117604,
+        57
+      ]
+    },
+    {
+      "matrix_id": "geometric-1",
+      "verified": true,
+      "n": 250,
+      "score": [
+        8982,
+        504554,
+        93
+      ]
+    },
+    {
+      "matrix_id": "geometric-2",
+      "verified": true,
+      "n": 350,
+      "score": [
+        16167,
+        1265379,
+        128
+      ]
+    },
+    {
+      "matrix_id": "geometric-3",
+      "verified": true,
+      "n": 450,
+      "score": [
+        25682,
+        2589002,
+        161
+      ]
+    },
+    {
+      "matrix_id": "banded_random-0",
+      "verified": true,
+      "n": 200,
+      "score": [
+        3044,
+        53314,
+        26
+      ]
+    },
+    {
+      "matrix_id": "banded_random-1",
+      "verified": true,
+      "n": 300,
+      "score": [
+        5210,
+        106510,
+        35
+      ]
+    },
+    {
+      "matrix_id": "banded_random-2",
+      "verified": true,
+      "n": 400,
+      "score": [
+        6631,
+        126637,
+        28
+      ]
+    },
+    {
+      "matrix_id": "banded_random-3",
+      "verified": true,
+      "n": 500,
+      "score": [
+        8697,
+        177333,
+        32
+      ]
+    },
+    {
+      "matrix_id": "494_bus",
+      "verified": true,
+      "n": 494,
+      "score": [
+        1412,
+        4794,
+        10
+      ]
+    },
+    {
+      "matrix_id": "662_bus",
+      "verified": true,
+      "n": 662,
+      "score": [
+        2549,
+        12937,
+        14
+      ]
+    },
+    {
+      "matrix_id": "685_bus",
+      "verified": true,
+      "n": 685,
+      "score": [
+        3618,
+        24490,
+        16
+      ]
+    },
+    {
+      "matrix_id": "1138_bus",
+      "verified": true,
+      "n": 1138,
+      "score": [
+        3263,
+        10917,
+        11
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "verified": true,
+  "matrix_id": "geometric-2",
+  "frontier_version": "v001",
+  "score": [
+    16167,
+    1265379,
+    128
+  ],
+  "inherited_score": [
+    16341,
+    1291579,
+    128
+  ],
+  "improves_submitted_frontier": true,
+  "improves_current_frontier": true,
+  "primary_reduction": 174,
+  "claim": "Symbolic ordering result; no automatic numerical runtime or peak-memory claim"
+}

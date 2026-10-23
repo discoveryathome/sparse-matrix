@@ -1,0 +1,197 @@
+{
+  "count": 16,
+  "checks": [
+    {
+      "certificate": "results/initial/bcsstk01.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 48,
+        "score": [
+          482,
+          5690,
+          17
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk01.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 48,
+        "score": [
+          480,
+          5642,
+          17
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk02.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 66,
+        "score": [
+          2211,
+          98021,
+          66
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk02.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 66,
+        "score": [
+          2211,
+          98021,
+          66
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk03.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 112,
+        "score": [
+          384,
+          1360,
+          4
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk03.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 112,
+        "score": [
+          384,
+          1360,
+          4
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk04.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 132,
+        "score": [
+          3273,
+          89415,
+          38
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk04.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 132,
+        "score": [
+          3280,
+          89838,
+          38
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk05.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 153,
+        "score": [
+          2326,
+          39118,
+          25
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk05.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 153,
+        "score": [
+          2324,
+          39064,
+          25
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk06.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 420,
+        "score": [
+          11192,
+          386858,
+          55
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk06.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 420,
+        "score": [
+          11202,
+          388590,
+          55
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk07.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 420,
+        "score": [
+          11192,
+          386858,
+          55
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk07.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 420,
+        "score": [
+          11202,
+          388590,
+          55
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk08.mtx-419.json",
+      "verification": {
+        "verified": true,
+        "n": 1074,
+        "score": [
+          30957,
+          1773733,
+          106
+        ]
+      }
+    },
+    {
+      "certificate": "results/initial/bcsstk08.mtx-503.json",
+      "verification": {
+        "verified": true,
+        "n": 1074,
+        "score": [
+          30969,
+          1777383,
+          106
+        ]
+      }
+    }
+  ]
+}

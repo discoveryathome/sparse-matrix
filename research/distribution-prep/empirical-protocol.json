@@ -1,0 +1,7 @@
+{
+  "inputs": "four new historical power-network admittance matrices; family selected before search",
+  "baseline": "AMD+4seedMETIS; exact scores; no transformed normal equations or diagonal shifts",
+  "trial": "fixed512proposal search at2seeds, inherited best baseline",
+  "validation": "exact Python symbolic scorer agrees with native; given-order CHOLMOD confirmsSPD and symboliccount; residual checks",
+  "limits": "one added empirical family,not a broad production benchmark; no numerical timing ranking in this gate"
+}

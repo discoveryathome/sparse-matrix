@@ -1,0 +1,36 @@
+{
+  "environment": "fresh macOS arm64 copy and virtualenv, dependencies installed from lock; not Linux",
+  "path": "/var/folders/sd/yrr853rn73qdgdgdmps82gfh0000gn/T/discovery-clean-cuuohx7a/sparse-matrix",
+  "checks": [
+    {
+      "command": [
+        "sh",
+        "tools/setup.sh"
+      ],
+      "returncode": 0,
+      "seconds": 0.8196803749306127,
+      "stdout": "",
+      "stderr": "Using CPython 3.12.11\nCreating virtual environment at: .venv\nActivate with: source .venv/bin/activate\nResolved 19 packages in 167ms\nInstalled 19 packages in 200ms\n + contourpy==1.4.0\n + cycler==0.12.1\n + fonttools==4.67.0\n + iniconfig==2.3.1\n + kiwisolver==1.5.1\n + matplotlib==3.11.2\n + numpy==2.5.4\n + packaging==26.3\n + pillow==13.0.0\n + pluggy==1.7.0\n + pygments==2.21.0\n + pymetis==2025.2.2\n + pyparsing==3.3.3\n + pytest==9.1.1\n + python-dateutil==3.0.0\n + scipy==1.18.1\n + six==1.17.0\n + typing-extensions==4.16.0\n + tzdata==2026.5\n"
+    },
+    {
+      "command": [
+        "/var/folders/sd/yrr853rn73qdgdgdmps82gfh0000gn/T/discovery-clean-cuuohx7a/sparse-matrix/.venv/bin/python",
+        "tools/check.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.4855578331043944,
+      "stdout": "...................                                                      [100%]\n19 passed in 1.03s\nVerified 54 frozen evidence hashes; tests passed.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/var/folders/sd/yrr853rn73qdgdgdmps82gfh0000gn/T/discovery-clean-cuuohx7a/sparse-matrix/.venv/bin/python",
+        "tools/verify_active.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.049230374977924,
+      "stdout": "{\n  \"verified\": true,\n  \"version\": \"v002\",\n  \"catalog_sha256\": \"58c310e0c552921383ade57ac5cdbb28cc8ef17f2eea52088f003e99a209d6cb\",\n  \"instances\": 28,\n  \"checks\": [\n    {\n      \"matrix_id\": \"bcsstk01\",\n      \"verified\": true,\n      \"n\": 48,\n      \"score\": [\n        470,\n        5400,\n        17\n      ]\n    },\n    {\n      \"matrix_id\": \"bcsstk02\",\n      \"verified\": true,\n      \"n\": 66,\n      \"score\": [\n        2211,\n        98021,\n        66\n      ]\n    },\n    {\n      \"matrix_id\": \"bcsstk03\",\n      \"verified\": true,\n      \"n\": 112,\n      \"score\": [\n        384,\n        1360,\n        4\n      ]\n    },\n    {\n      \"matrix_id\": \"bcsstk04\",\n      \"verified\": true,\n      \"n\": 132,\n      \"score\": [\n        3258,\n        88532,\n        38\n      ]\n    },\n    {\n      \"matrix_id\": \"bcsstk05\",\n      \"verified\": true,\n      \"n\": 153,\n      \"score\": [\n        2324,\n        39064,\n        25\n      ]\n    },\n    {\n      \"matrix_id\": \"bcsstk06\",\n      \"verified\": true,\n      \"n\": 420,\n      \"score\": [\n        10843,\n        359887,\n        54\n      ]\n    },\n    {\n      \"matrix_id\": \"bcsstk08\",\n      \"verified\": true,\n      \"n\": 1074,\n      \"score\": [\n        30645,\n        1730951,\n        106\n      ]\n    },\n    {\n      \"matrix_id\": \"bcsstk09\",\n      \"verified\": true,\n      \"n\": 1083,\n      \"score\": [\n        47125,\n        2656665,\n        94\n      ]\n    },\n    {\n      \"matrix_id\": \"grid2d-0\",\n      \"verified\": true,\n      \"n\": 256,\n      \"score\": [\n        2111,\n        22803,\n        22\n      ]\n    },\n    {\n      \"matrix_id\": \"grid2d-1\",\n      \"verified\": true,\n      \"n\": 400,\n      \"score\": [\n        3702,\n        48314,\n        28\n      ]\n    },\n    {\n      \"matrix_id\": \"grid2d-2\",\n      \"verified\": true,\n      \"n\": 576,\n      \"score\": [\n        5782,\n        86766,\n        35\n      ]\n    },\n    {\n      \"matrix_id\": \"grid2d-3\",\n      \"verified\": true,\n      \"n\": 784,\n      \"score\": [\n        8516,\n        147892,\n        41\n      ]\n    },\n    {\n      \"matrix_id\": \"grid3d-0\",\n      \"verified\": true,\n      \"n\": 125,\n      \"score\": [\n        1321,\n        20063,\n        29\n      ]\n    },\n    {\n      \"matrix_id\": \"grid3d-1\",\n      \"verified\": true,\n      \"n\": 216,\n      \"score\": [\n        2973,\n        66889,\n        43\n      ]\n    },\n    {\n      \"matrix_id\": \"grid3d-2\",\n      \"verified\": true,\n      \"n\": 343,\n      \"score\": [\n        5725,\n        166901,\n        52\n      ]\n    },\n    {\n      \"matrix_id\": \"grid3d-3\",\n      \"verified\": true,\n      \"n\": 512,\n      \"score\": [\n        10442,\n        392582,\n        70\n      ]\n    },\n    {\n      \"matrix_id\": \"geometric-0\",\n      \"verified\": true,\n      \"n\": 150,\n      \"score\": [\n        3482,\n        117604,\n        57\n      ]\n    },\n    {\n      \"matrix_id\": \"geometric-1\",\n      \"verified\": true,\n      \"n\": 250,\n      \"score\": [\n        8982,\n        504554,\n        93\n      ]\n    },\n    {\n      \"matrix_id\": \"geometric-2\",\n      \"verified\": true,\n      \"n\": 350,\n      \"score\": [\n        16167,\n        1265379,\n        128\n      ]\n    },\n    {\n      \"matrix_id\": \"geometric-3\",\n      \"verified\": true,\n      \"n\": 450,\n      \"score\": [\n        25682,\n        2589002,\n        161\n      ]\n    },\n    {\n      \"matrix_id\": \"banded_random-0\",\n      \"verified\": true,\n      \"n\": 200,\n      \"score\": [\n        3044,\n        53314,\n        26\n      ]\n    },\n    {\n      \"matrix_id\": \"banded_random-1\",\n      \"verified\": true,\n      \"n\": 300,\n      \"score\": [\n        5210,\n        106510,\n        35\n      ]\n    },\n    {\n      \"matrix_id\": \"banded_random-2\",\n      \"verified\": true,\n      \"n\": 400,\n      \"score\": [\n        6631,\n        126637,\n        28\n      ]\n    },\n    {\n      \"matrix_id\": \"banded_random-3\",\n      \"verified\": true,\n      \"n\": 500,\n      \"score\": [\n        8697,\n        177333,\n        32\n      ]\n    },\n    {\n      \"matrix_id\": \"494_bus\",\n      \"verified\": true,\n      \"n\": 494,\n      \"score\": [\n        1412,\n        4794,\n        10\n      ]\n    },\n    {\n      \"matrix_id\": \"662_bus\",\n      \"verified\": true,\n      \"n\": 662,\n      \"score\": [\n        2549,\n        12937,\n        14\n      ]\n    },\n    {\n      \"matrix_id\": \"685_bus\",\n      \"verified\": true,\n      \"n\": 685,\n      \"score\": [\n        3618,\n        24490,\n        16\n      ]\n    },\n    {\n      \"matrix_id\": \"1138_bus\",\n      \"verified\": true,\n      \"n\": 1138,\n      \"score\": [\n        3263,\n        10917,\n        11\n      ]\n    }\n  ]\n}\n",
+      "stderr": ""
+    }
+  ]
+}

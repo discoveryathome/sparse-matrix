@@ -1,0 +1,342 @@
+{
+  "frontier": "v002",
+  "ranking": "primary symbolic L nonzeros, secondary arithmetic proxy; exact verification",
+  "instances": [
+    {
+      "matrix_id": "bcsstk01",
+      "family": "historical_structural",
+      "origin": "empirical",
+      "n": 48,
+      "score": [
+        470,
+        5400,
+        17
+      ],
+      "frontier": "frontiers/v002/bcsstk01.json"
+    },
+    {
+      "matrix_id": "bcsstk02",
+      "family": "historical_structural",
+      "origin": "empirical",
+      "n": 66,
+      "score": [
+        2211,
+        98021,
+        66
+      ],
+      "frontier": "frontiers/v002/bcsstk02.json"
+    },
+    {
+      "matrix_id": "bcsstk03",
+      "family": "historical_structural",
+      "origin": "empirical",
+      "n": 112,
+      "score": [
+        384,
+        1360,
+        4
+      ],
+      "frontier": "frontiers/v002/bcsstk03.json"
+    },
+    {
+      "matrix_id": "bcsstk04",
+      "family": "historical_structural",
+      "origin": "empirical",
+      "n": 132,
+      "score": [
+        3258,
+        88532,
+        38
+      ],
+      "frontier": "frontiers/v002/bcsstk04.json"
+    },
+    {
+      "matrix_id": "bcsstk05",
+      "family": "historical_structural",
+      "origin": "empirical",
+      "n": 153,
+      "score": [
+        2324,
+        39064,
+        25
+      ],
+      "frontier": "frontiers/v002/bcsstk05.json"
+    },
+    {
+      "matrix_id": "bcsstk06",
+      "family": "historical_structural",
+      "origin": "empirical",
+      "n": 420,
+      "score": [
+        10843,
+        359887,
+        54
+      ],
+      "frontier": "frontiers/v002/bcsstk06.json"
+    },
+    {
+      "matrix_id": "bcsstk08",
+      "family": "historical_structural",
+      "origin": "empirical",
+      "n": 1074,
+      "score": [
+        30645,
+        1730951,
+        106
+      ],
+      "frontier": "frontiers/v002/bcsstk08.json"
+    },
+    {
+      "matrix_id": "bcsstk09",
+      "family": "historical_structural",
+      "origin": "empirical",
+      "n": 1083,
+      "score": [
+        47125,
+        2656665,
+        94
+      ],
+      "frontier": "frontiers/v002/bcsstk09.json"
+    },
+    {
+      "matrix_id": "grid2d-0",
+      "family": "grid2d",
+      "origin": "synthetic",
+      "n": 256,
+      "score": [
+        2111,
+        22803,
+        22
+      ],
+      "frontier": "frontiers/v002/grid2d-0.json"
+    },
+    {
+      "matrix_id": "grid2d-1",
+      "family": "grid2d",
+      "origin": "synthetic",
+      "n": 400,
+      "score": [
+        3702,
+        48314,
+        28
+      ],
+      "frontier": "frontiers/v002/grid2d-1.json"
+    },
+    {
+      "matrix_id": "grid2d-2",
+      "family": "grid2d",
+      "origin": "synthetic",
+      "n": 576,
+      "score": [
+        5782,
+        86766,
+        35
+      ],
+      "frontier": "frontiers/v002/grid2d-2.json"
+    },
+    {
+      "matrix_id": "grid2d-3",
+      "family": "grid2d",
+      "origin": "synthetic",
+      "n": 784,
+      "score": [
+        8516,
+        147892,
+        41
+      ],
+      "frontier": "frontiers/v002/grid2d-3.json"
+    },
+    {
+      "matrix_id": "grid3d-0",
+      "family": "grid3d",
+      "origin": "synthetic",
+      "n": 125,
+      "score": [
+        1321,
+        20063,
+        29
+      ],
+      "frontier": "frontiers/v002/grid3d-0.json"
+    },
+    {
+      "matrix_id": "grid3d-1",
+      "family": "grid3d",
+      "origin": "synthetic",
+      "n": 216,
+      "score": [
+        2973,
+        66889,
+        43
+      ],
+      "frontier": "frontiers/v002/grid3d-1.json"
+    },
+    {
+      "matrix_id": "grid3d-2",
+      "family": "grid3d",
+      "origin": "synthetic",
+      "n": 343,
+      "score": [
+        5725,
+        166901,
+        52
+      ],
+      "frontier": "frontiers/v002/grid3d-2.json"
+    },
+    {
+      "matrix_id": "grid3d-3",
+      "family": "grid3d",
+      "origin": "synthetic",
+      "n": 512,
+      "score": [
+        10442,
+        392582,
+        70
+      ],
+      "frontier": "frontiers/v002/grid3d-3.json"
+    },
+    {
+      "matrix_id": "geometric-0",
+      "family": "geometric",
+      "origin": "synthetic",
+      "n": 150,
+      "score": [
+        3482,
+        117604,
+        57
+      ],
+      "frontier": "frontiers/v002/geometric-0.json"
+    },
+    {
+      "matrix_id": "geometric-1",
+      "family": "geometric",
+      "origin": "synthetic",
+      "n": 250,
+      "score": [
+        8982,
+        504554,
+        93
+      ],
+      "frontier": "frontiers/v002/geometric-1.json"
+    },
+    {
+      "matrix_id": "geometric-2",
+      "family": "geometric",
+      "origin": "synthetic",
+      "n": 350,
+      "score": [
+        16167,
+        1265379,
+        128
+      ],
+      "frontier": "frontiers/v002/geometric-2.json"
+    },
+    {
+      "matrix_id": "geometric-3",
+      "family": "geometric",
+      "origin": "synthetic",
+      "n": 450,
+      "score": [
+        25682,
+        2589002,
+        161
+      ],
+      "frontier": "frontiers/v002/geometric-3.json"
+    },
+    {
+      "matrix_id": "banded_random-0",
+      "family": "banded_random",
+      "origin": "synthetic",
+      "n": 200,
+      "score": [
+        3044,
+        53314,
+        26
+      ],
+      "frontier": "frontiers/v002/banded_random-0.json"
+    },
+    {
+      "matrix_id": "banded_random-1",
+      "family": "banded_random",
+      "origin": "synthetic",
+      "n": 300,
+      "score": [
+        5210,
+        106510,
+        35
+      ],
+      "frontier": "frontiers/v002/banded_random-1.json"
+    },
+    {
+      "matrix_id": "banded_random-2",
+      "family": "banded_random",
+      "origin": "synthetic",
+      "n": 400,
+      "score": [
+        6631,
+        126637,
+        28
+      ],
+      "frontier": "frontiers/v002/banded_random-2.json"
+    },
+    {
+      "matrix_id": "banded_random-3",
+      "family": "banded_random",
+      "origin": "synthetic",
+      "n": 500,
+      "score": [
+        8697,
+        177333,
+        32
+      ],
+      "frontier": "frontiers/v002/banded_random-3.json"
+    },
+    {
+      "matrix_id": "494_bus",
+      "family": "historical_power_network",
+      "origin": "empirical",
+      "n": 494,
+      "score": [
+        1412,
+        4794,
+        10
+      ],
+      "frontier": "frontiers/v002/494_bus.json"
+    },
+    {
+      "matrix_id": "662_bus",
+      "family": "historical_power_network",
+      "origin": "empirical",
+      "n": 662,
+      "score": [
+        2549,
+        12937,
+        14
+      ],
+      "frontier": "frontiers/v002/662_bus.json"
+    },
+    {
+      "matrix_id": "685_bus",
+      "family": "historical_power_network",
+      "origin": "empirical",
+      "n": 685,
+      "score": [
+        3618,
+        24490,
+        16
+      ],
+      "frontier": "frontiers/v002/685_bus.json"
+    },
+    {
+      "matrix_id": "1138_bus",
+      "family": "historical_power_network",
+      "origin": "empirical",
+      "n": 1138,
+      "score": [
+        3263,
+        10917,
+        11
+      ],
+      "frontier": "frontiers/v002/1138_bus.json"
+    }
+  ]
+}

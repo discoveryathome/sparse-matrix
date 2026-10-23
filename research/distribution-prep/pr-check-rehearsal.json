@@ -1,0 +1,24 @@
+{
+  "verified": true,
+  "environment": "isolated macOS git repository; prepared trusted base checks candidate data without executing modified candidate verifier",
+  "valid_submission": {
+    "command": [
+      "/var/folders/sd/yrr853rn73qdgdgdmps82gfh0000gn/T/discovery-clean-cuuohx7a/sparse-matrix/.venv/bin/python",
+      "tools/check_pr_certificates.py",
+      "refs/remotes/origin/candidate"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"verified\": true,\n  \"matrix_id\": \"bcsstk04\",\n  \"frontier_version\": \"v001\",\n  \"score\": [\n    3258,\n    88532,\n    38\n  ],\n  \"inherited_score\": [\n    3273,\n    89415,\n    38\n  ],\n  \"improves_submitted_frontier\": true,\n  \"improves_current_frontier\": false,\n  \"primary_reduction\": 15,\n  \"claim\": \"Symbolic ordering result; no automatic numerical runtime or peak-memory claim\"\n}\nVerified 1 candidate certificates using trusted base code\n",
+    "stderr": ""
+  },
+  "forged_metric": {
+    "command": [
+      "/var/folders/sd/yrr853rn73qdgdgdmps82gfh0000gn/T/discovery-clean-cuuohx7a/sparse-matrix/.venv/bin/python",
+      "tools/check_pr_certificates.py",
+      "refs/remotes/origin/candidate"
+    ],
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/private/var/folders/sd/yrr853rn73qdgdgdmps82gfh0000gn/T/discovery-clean-cuuohx7a/sparse-matrix/tools/verify_submission.py\", line 4, in <module>\n    p=argparse.ArgumentParser();p.add_argument('certificate');a=p.parse_args();f=Path(a.certificate);assert f.stat().st_size<=2000000,'Submission too large';print(json.dumps(check_submission(json.loads(f.read_text())),indent=2))\n                                                                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/var/folders/sd/yrr853rn73qdgdgdmps82gfh0000gn/T/discovery-clean-cuuohx7a/sparse-matrix/src/submissions.py\", line 13, in check_submission\n    score=exact_score(graph(ip),c['order']);assert score==c['score'],'Incorrect symbolic score';budget=c['budget'];assert type(budget['evaluations']) is int and budget['evaluations']>=0;assert type(budget['seconds']) in [int,float] and math.isfinite(budget['seconds']) and budget['seconds']>=0;assert isinstance(c['method'],str) and 0<len(c['method'])<=2000\n                                                   ^^^^^^^^^^^^^^^^^\nAssertionError: Incorrect symbolic score\nTraceback (most recent call last):\n  File \"/private/var/folders/sd/yrr853rn73qdgdgdmps82gfh0000gn/T/discovery-clean-cuuohx7a/sparse-matrix/tools/check_pr_certificates.py\", line 18, in <module>\n    subprocess.run([sys.executable,str(ROOT/'tools/verify_submission.py'),str(local)],cwd=ROOT,check=True,timeout=120);count+=1\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/colkitt/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['/var/folders/sd/yrr853rn73qdgdgdmps82gfh0000gn/T/discovery-clean-cuuohx7a/sparse-matrix/.venv/bin/python', '/private/var/folders/sd/yrr853rn73qdgdgdmps82gfh0000gn/T/discovery-clean-cuuohx7a/sparse-matrix/tools/verify_submission.py', '/var/folders/sd/yrr853rn73qdgdgdmps82gfh0000gn/T/tmphmkomyyv/0.json']' returned non-zero exit status 1.\n"
+  }
+}

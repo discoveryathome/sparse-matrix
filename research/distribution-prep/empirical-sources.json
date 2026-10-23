@@ -1,0 +1,34 @@
+[
+  {
+    "name": "494_bus",
+    "family": "historical_power_network",
+    "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/psadmit/494_bus.mtx.gz",
+    "input": "data/empirical/494_bus.mtx.gz",
+    "sha256": "55a2551e699253653e1b297467da1fdb7b647f850b05eb2c6647f8d66a1d8748",
+    "metadata": "https://sparse.tamu.edu/HB/494_bus"
+  },
+  {
+    "name": "662_bus",
+    "family": "historical_power_network",
+    "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/psadmit/662_bus.mtx.gz",
+    "input": "data/empirical/662_bus.mtx.gz",
+    "sha256": "6494b1289470fd880d49ed4c0c6343edf1b5b787ff25191fccbac6fba72e1e98",
+    "metadata": "https://sparse.tamu.edu/HB/662_bus"
+  },
+  {
+    "name": "685_bus",
+    "family": "historical_power_network",
+    "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/psadmit/685_bus.mtx.gz",
+    "input": "data/empirical/685_bus.mtx.gz",
+    "sha256": "443dfa2e58126d19b68e648699e3d5fabd7cb917c059eae196d0b8829ae7c73a",
+    "metadata": "https://sparse.tamu.edu/HB/685_bus"
+  },
+  {
+    "name": "1138_bus",
+    "family": "historical_power_network",
+    "url": "https://math.nist.gov/pub/MatrixMarket2/Harwell-Boeing/psadmit/1138_bus.mtx.gz",
+    "input": "data/empirical/1138_bus.mtx.gz",
+    "sha256": "0544e52ed96893ae82c5a7f9051d662e04a1c27fe57768578de09932381fd963",
+    "metadata": "https://sparse.tamu.edu/HB/1138_bus"
+  }
+]

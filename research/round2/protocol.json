@@ -1,0 +1,8 @@
+{
+  "corpus": "24 unique patterns:8 historical structural matrices+16 explicitly synthetic across4 families; fixed sizes/seeds before optimization;9 heldout cases",
+  "method": "unchanged3-move local search512attempts each at seeds419,503; no tuning on new corpus",
+  "baseline": "best AMD,RCM,natural,4seed METIS portfolio; additional METIS restarts up to same local search wall budget or256calls (record cap)",
+  "numeric": "SuiteSparse CHOLMOD simplicial LL, given order,no postorder;7 interleaved batches of25numeric refactorizations and25solves; residual check; CHOLMOD tracked allocation peak not process RSS",
+  "acceptance": "exact symbolic agreement plus numericSPD/residual; report all nulls; no controlled runtime claim on shared host",
+  "stop": "fixed round, no budget extension"
+}

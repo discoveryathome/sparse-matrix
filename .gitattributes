@@ -1,0 +1,5 @@
+*.log -whitespace
+*.patch -whitespace
+*.svg -whitespace
+**/log.txt -whitespace
+research/distribution-prep/nist-index.html -whitespace
