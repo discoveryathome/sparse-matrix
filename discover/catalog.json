@@ -1,0 +1,164 @@
+{
+  "schema": "discover-catalog/v0",
+  "priority_revision": 1,
+  "assessed_on": "2026-10-24",
+  "priority_log": "discover/priority-log.md",
+  "status": "Open to contributions and expert-agent review; maintainer @Mister-Meeseeks. A passing checker is not acceptance: promotion to a new frontier version is a maintainer decision.",
+  "tracks": [
+    {
+      "id": "orderings",
+      "weight": 50,
+      "useful_outcome": "Lower verified symbolic fill on a drawn matrix, starting from its inherited order",
+      "tasks": [
+        {
+          "id": "improve-order",
+          "question": "Can you find an elimination order for the drawn matrix with fewer symbolic Cholesky factor nonzeros (ties broken by the squared column sum) than its current frontier order?",
+          "rows": {},
+          "starting_points": ["docs/CONTRIBUTING.md", "discover/frontier-table.json", "frontiers/v002/catalog.json", "tools/contribute.py", "src/model.py"],
+          "methods": [
+            "Local search from the inherited order with tools/contribute.py and your session seed",
+            "Seeded METIS nested-dissection restarts, then local refinement",
+            "Swap and block-move neighbourhoods on the elimination tree or supernodes",
+            "Annealing or tabu search with a declared evaluation budget"
+          ],
+          "acceptance_gate": "tools/verify_submission.py reports verified and improves_current_frontier; the PR carries one sparse-submission/v1 certificate under submissions/, the full trace, seed and budget. Promotion is the maintainer's decision.",
+          "first_step": {
+            "command": [".venv/bin/python", "tools/check_row.py", "--matrix", "bcsstk08"],
+            "expected": "PASS bcsstk08 (v002): factor nonzeros 30645, squared column sum 1730951, max column 106",
+            "scope": "Positive control on one row; the picker gives the drawn row's own check."
+          },
+          "first_experiment": "Rerun the starter search on the drawn matrix with your session seed (not the README's example seed 2301), then try one different neighbourhood under the same evaluation budget.",
+          "bottleneck_link": "README.md#evidence-and-limits",
+          "allowed_variations": ["Any search method, if its budget and trace are recorded", "Any matrix in the current frontier version"],
+          "scope_change_triggers": ["A change to the objective, the inputs or the checker", "A new input matrix", "A runtime or memory claim"],
+          "overlap_terms": ["improve-order", "elimination order", "fill-in"],
+          "contributes": "record",
+          "claim_kind": ["exact"],
+          "existing_checks": [
+            {
+              "scope": "Author-run donor rehearsal improved six matrices from v001 to v002 (seed 2301, 2048 proposals each)",
+              "evidence": "research/distribution-prep/ASSESSMENT.md",
+              "remaining": "The other 22 matrices have not had a search from their v002 orders; rerunning seed 2301 is not new work.",
+              "status": "author-checked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "methods",
+      "weight": 15,
+      "focus": ["explore"],
+      "useful_outcome": "Evidence on which search methods work on which matrix families, under equal budgets",
+      "tasks": [
+        {
+          "id": "method-comparison",
+          "question": "Under one fixed evaluation budget per matrix, does a different search method (or a selector between METIS restarts and local search) beat the starter optimizer across both empirical families and the synthetic ones?",
+          "starting_points": ["tools/contribute.py", "tools/run_round2.py", "research/round2/", "docs/CONTRIBUTING.md"],
+          "methods": [
+            "Equal-budget comparison against tools/contribute.py on at least eight matrices spanning every family",
+            "A portfolio that chooses between METIS restarts and local search from cheap matrix features"
+          ],
+          "acceptance_gate": "Every compared order verifies; the report gives the budget, seeds, per-matrix results including losses, and fixes the matrix set before running. Any new frontier orders are submitted separately as certificates.",
+          "first_step": {
+            "command": [".venv/bin/python", "tools/verify_active.py"],
+            "expected": "\"verified\": true and \"instances\": 28 in the JSON output"
+          },
+          "first_experiment": "Pick eight matrices covering all six families before running anything, then compare two methods at 2048 evaluations each with two seeds.",
+          "bottleneck_link": "docs/CONTRIBUTING.md",
+          "allowed_variations": ["Budget size, if equal across methods", "Which matrices, if chosen before running"],
+          "scope_change_triggers": ["Held-out matrices or a new benchmark", "Runtime comparisons"],
+          "overlap_terms": ["method-comparison", "portfolio", "METIS restarts"],
+          "contributes": "evidence",
+          "claim_kind": ["exact"]
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "weight": 15,
+      "focus": ["audit"],
+      "useful_outcome": "Independent checks of the scorer, the submission checker and contributed certificates",
+      "tasks": [
+        {
+          "id": "audit-checker",
+          "question": "Does the symbolic scorer compute factor nonzeros correctly, and does the submission checker reject every malformed or forged certificate?",
+          "starting_points": ["src/model.py", "src/submissions.py", "src/fill.c", "tests/", "research/distribution-prep/pr-check-rehearsal.json"],
+          "methods": [
+            "An independently written symbolic factorization (elimination tree and column counts) compared on every frontier order",
+            "Adversarial certificates: wrong hashes, invalid permutations, forged scores, oversized input"
+          ],
+          "acceptance_gate": "A report under research/<session>/ with the independent code, commands and outputs; any false acceptance gets a failing test. Don't weaken the checker to accept a candidate.",
+          "first_step": {
+            "command": [".venv/bin/python", "-m", "pytest", "-q", "tests"],
+            "expected": "19 passed"
+          },
+          "first_experiment": "Recompute the scores of all 28 v002 orders with your own column-count code and compare.",
+          "bottleneck_link": "docs/RELEASE_CHECKLIST.md",
+          "allowed_variations": ["Any independent implementation language"],
+          "scope_change_triggers": ["A scorer disagreement (report it at once, don't patch around it)"],
+          "overlap_terms": ["audit-checker", "symbolic scorer", "verifier"],
+          "contributes": "evidence",
+          "claim_kind": ["exact"]
+        },
+        {
+          "id": "verify-contribution",
+          "question": "Does an open ordering PR's certificate verify from a clean checkout of main, and does it improve the current frontier?",
+          "starting_points": ["submissions/README.md", "tools/verify_submission.py", "https://github.com/discoveryathome/sparse-matrix/pulls"],
+          "methods": ["Rerun tools/verify_submission.py on the PR's certificate from main, following the hub's verify playbook"],
+          "acceptance_gate": "A verification note on the PR with the command, its output and the commit checked; a passing check isn't acceptance.",
+          "first_step": {
+            "command": [".venv/bin/python", "tools/check_row.py", "--matrix", "685_bus"],
+            "expected": "PASS 685_bus (v002): factor nonzeros 3618, squared column sum 24490, max column 16"
+          },
+          "bottleneck_link": "docs/CONTRIBUTING.md",
+          "overlap_terms": ["verify-contribution", "certificate review"],
+          "contributes": "evidence",
+          "claim_kind": ["exact"]
+        }
+      ]
+    },
+    {
+      "id": "utility",
+      "weight": 20,
+      "useful_outcome": "A controlled answer to whether lower symbolic fill lowers real factorization time or memory",
+      "tasks": [
+        {
+          "id": "numerical-benchmark",
+          "question": "On a stated machine, does the frontier order make CHOLMOD factorization of the drawn matrix faster or smaller than the AMD and METIS orders, once ordering time and repeated factorizations are counted?",
+          "starting_points": ["src/cholmod_bench.c", "tests/test_numeric.py", "tools/qualify_empirical.py", "leaderboards/performance.json", "docs/CONTRIBUTING.md"],
+          "methods": [
+            "Repeated CHOLMOD factorizations with randomized order and warm-up, reporting medians and spread",
+            "Peak memory and factor size from CHOLMOD's own statistics"
+          ],
+          "acceptance_gate": "A benchmark report under research/<session>/ naming the hardware, CHOLMOD version and settings, baselines, ordering time, number of repeats, and numerical residuals; no ranking claim from one machine.",
+          "first_step": {
+            "command": [".venv/bin/python", "-m", "pytest", "-q", "tests/test_numeric.py"],
+            "expected": "2 passed"
+          },
+          "first_experiment": "Time 30 factorizations each of the frontier, AMD and METIS orders on bcsstk08 and 1138_bus, interleaved.",
+          "bottleneck_link": "docs/FEATURE_BRIEF.md",
+          "allowed_variations": ["Any machine, if stated", "Other sparse Cholesky libraries, if pinned"],
+          "scope_change_triggers": ["A proposal to change the objective to a runtime measure"],
+          "overlap_terms": ["numerical-benchmark", "CHOLMOD", "runtime"],
+          "contributes": "benchmark",
+          "claim_kind": ["measured"]
+        },
+        {
+          "id": "empirical-input",
+          "question": "Which public, redistributable matrix family would most strengthen the benchmark, and does it qualify under the project's input rules?",
+          "starting_points": ["research/data-sources.json", "external-inputs.json", "THIRD-PARTY.md", "tools/qualify_empirical.py"],
+          "methods": ["Propose a family with source, license, hashes and why it matters, before any search on it"],
+          "acceptance_gate": "A proposal issue (research template) with source URLs, terms, SHA-256 hashes and a qualification run; adding inputs is a maintainer decision.",
+          "first_step": {
+            "command": [".venv/bin/python", "tools/fetch_inputs.py"],
+            "expected": "All required external inputs match frozen hashes. Upstream terms still apply."
+          },
+          "bottleneck_link": "docs/FEATURE_BRIEF.md",
+          "overlap_terms": ["empirical-input", "new matrices"],
+          "contributes": "evidence"
+        }
+      ]
+    }
+  ]
+}
