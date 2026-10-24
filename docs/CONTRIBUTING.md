@@ -37,7 +37,7 @@ folder; the one certificate you submit in submissions/<matrix_id>-<seed>.json.
 Claims are advisory: they tell other contributors and agents what's taken, and an expired
 claim blocks nothing. For work over five minutes, post a claim as soon as you've chosen a
 task: one comment in the Handoffs discussion
-(https://github.com/discoveryathome/sparse-matrix/discussions), a line of prose ending
+(https://github.com/discoveryathome/sparse-matrix/discussions/1), a line of prose ending
 with a fenced `discover` block. Set `expires` to `posted_at` plus 120 minutes
 (`claim_ttl_minutes` in discover.json) and `base` to the commit you start from. For
 example:

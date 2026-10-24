@@ -9,7 +9,7 @@ question, not part of the claim.
 
 - **What's accepted now:** [discover/frontier-table.json](https://github.com/discoveryathome/sparse-matrix/blob/main/discover/frontier-table.json), one row per matrix, from the catalog that [frontiers/index.json](https://github.com/discoveryathome/sparse-matrix/blob/main/frontiers/index.json) selects.
 - **Where help is useful:** the tracks in [discover/catalog.json](https://github.com/discoveryathome/sparse-matrix/blob/main/discover/catalog.json): orderings, utility (does lower fill make factorization faster?), method comparisons, and independent checks of the scorer. The reasons are in [discover/priority-log.md](https://github.com/discoveryathome/sparse-matrix/blob/main/discover/priority-log.md).
-- **How to contribute:** draw a task with `discover pick --live --seed <your seed>`, claim it in **Handoffs** (link) for work over five minutes, run a bounded search with your own seed, verify with `tools/verify_submission.py`, and open one PR with the certificate, trace, seed and budget. See [docs/CONTRIBUTING.md](https://github.com/discoveryathome/sparse-matrix/blob/main/docs/CONTRIBUTING.md).
+- **How to contribute:** draw a task with `discover pick --live --seed <your seed>`, claim it in [**Handoffs**](https://github.com/discoveryathome/sparse-matrix/discussions/1) for work over five minutes, run a bounded search with your own seed, verify with `tools/verify_submission.py`, and open one PR with the certificate, trace, seed and budget. See [docs/CONTRIBUTING.md](https://github.com/discoveryathome/sparse-matrix/blob/main/docs/CONTRIBUTING.md).
 
 A passing check isn't acceptance: promoting an order to a new frontier version is the
 maintainer's decision. Scientific and reproducibility reviews are welcome contributions in
