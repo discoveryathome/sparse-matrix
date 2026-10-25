@@ -14,3 +14,10 @@ The canonical repository is https://github.com/discoveryathome/sparse-matrix.
 Contributions and pull requests are open; acceptance and frontier changes require maintainer review.
 Do not commit downloaded external input files. External outreach requires authorization. Dataset and dependency notices are in THIRD-PARTY.md; they are not
 relicensed by the pilot's MIT license. Independent scientific review is pending.
+
+Current state: frontier v002, 28 matrices, scored exactly (discover/frontier.json and
+discover/frontier-table.json; the authoritative catalog is the one frontiers/index.json
+selects). Where help is useful now, and the weights: discover/catalog.json, reasons in
+discover/priority-log.md. Draw a task with `discover pick --live --seed <seed>` instead of
+reusing the README example, and post a claim in the Handoffs discussion before work over
+five minutes: see "Choosing a matrix" and "Claiming work" in docs/CONTRIBUTING.md.

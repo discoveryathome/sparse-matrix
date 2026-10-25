@@ -1,0 +1,43 @@
+{
+  "schema": "discover-frontier/v0",
+  "statement": "Best verified elimination order for each of the 28 matrices in frontier v002 (12 historical matrices from structural engineering and power networks, 16 synthetic), scored by exact symbolic Cholesky factor nonzeros including the diagonal, with the sum of squared elimination column lengths as tie-breaker. Each row is the best order inherited so far for that matrix.",
+  "status": "Open to contributions and expert-agent review; maintainer @Mister-Meeseeks. Orders are author-checked; promotion to a new frontier version is a maintainer decision. Independent numerical-linear-algebra review has not happened.",
+  "evidence_level": ["author-checked"],
+  "claim_kind": ["exact"],
+  "scope": "Exact symbolic scores of the stated orders on the stated inputs (pinned by SHA-256). Project-instance results: not literature or global records, not a general ordering algorithm, and no numerical runtime or memory claim; runtime evidence is separate and unranked (leaderboards/performance.json).",
+  "review": "research/distribution-prep/ASSESSMENT.md",
+  "updated_on": "2026-10-23",
+  "table": {
+    "path": "discover/frontier-table.json",
+    "format": "json",
+    "key": ["matrix_id"],
+    "value": "factor_nnz",
+    "direction": "lower-is-better",
+    "object": "order",
+    "check_row": [".venv/bin/python", "tools/check_row.py", "--matrix", "{matrix_id}"],
+    "check_row_minutes": 1,
+    "by": "by",
+    "source": "source"
+  },
+  "assumptions": [
+    {
+      "id": "numerical-utility",
+      "statement": "Lower symbolic fill is the project's objective; whether it lowers factorization time or memory in real solver workloads is an open question, tracked separately.",
+      "status": "open",
+      "link": "docs/FEATURE_BRIEF.md"
+    },
+    {
+      "id": "baseline-strength",
+      "statement": "Baselines are AMD, RCM and seeded METIS nested dissection; stronger ordering baselines from the literature have not been compared, so no novelty is claimed.",
+      "status": "open",
+      "link": "docs/RELEASE_CHECKLIST.md"
+    }
+  ],
+  "artifacts": [
+    {"path": "frontiers/index.json", "sha256": "32adfd9db2520ebab866a5cbfcc1d73cbb6b9cf8b7427a90e6de7a1b664d3a19", "role": "selects the current frontier version"},
+    {"path": "frontiers/v002/catalog.json", "sha256": "58c310e0c552921383ade57ac5cdbb28cc8ef17f2eea52088f003e99a209d6cb", "role": "current immutable catalog: per-matrix inputs, orders, scores, provenance"}
+  ],
+  "reproduce": ".venv/bin/python tools/check.py && .venv/bin/python tools/verify_active.py",
+  "reproduce_minutes": 1,
+  "prerequisites": ["Python 3.12 and uv", "a C compiler and SuiteSparse (macOS: brew install suite-sparse; Ubuntu: build-essential libsuitesparse-dev)", "network access for sh tools/setup.sh, which fetches the historical matrices from their original hosts and checks their hashes"]
+}

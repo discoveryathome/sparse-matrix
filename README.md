@@ -12,13 +12,13 @@ The active project frontier contains 28 distinct inputs: 12 historical matrices 
 sh tools/setup.sh
 .venv/bin/python tools/check.py
 .venv/bin/python tools/verify_active.py
-.venv/bin/python tools/contribute.py --matrix bcsstk08 --seed 2301 --attempts 2048 --out research/my-trial
+.venv/bin/python tools/contribute.py --matrix <drawn matrix> --seed <your seed> --attempts 2048 --out research/my-trial
 .venv/bin/python tools/verify_submission.py research/my-trial/candidate.json
 ```
 
-Use a fresh output directory. A null result is valid evidence but is not a frontier improvement. To reproduce an older task, pass --frontier-version v001.
+Draw the matrix (`discover pick --live --seed <your seed>`, or any matrix in discover/frontier-table.json) and use your own seed: rerunning someone else's seed on the same matrix repeats their search. Use a fresh output directory. A null result is valid evidence but is not a frontier improvement. To reproduce an older task, pass --frontier-version v001.
 
-Requires Python 3.12, uv, a C compiler and SuiteSparse. On macOS use `brew install suite-sparse`; on Ubuntu use `sudo apt-get install build-essential libsuitesparse-dev`. Fresh macOS setup is checked. See [current release status](docs/STATUS.md) for Linux CI.
+Requires Python 3.12, uv, a C compiler and SuiteSparse. On macOS use `brew install suite-sparse`; on Ubuntu use `sudo apt-get install build-essential libsuitesparse-dev`. Fresh macOS setup and Ubuntu CI pass; see [current release status](docs/STATUS.md).
 
 Read [contributor instructions](docs/CONTRIBUTING.md), [the feature brief](docs/FEATURE_BRIEF.md), and [the current assessment](research/distribution-prep/ASSESSMENT.md). Original protocols and evidence remain under research/ and results/.
 

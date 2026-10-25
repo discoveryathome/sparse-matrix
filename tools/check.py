@@ -18,6 +18,7 @@ for rel in ['research/manifest.json','research/round2/manifest.json','research/d
   count+=1
 assert json.loads((ROOT/'discover.json').read_text())['review']['paused'] is False
 subprocess.run([sys.executable,'-m','pytest','-q','tests'],cwd=ROOT,check=True)
+subprocess.run([sys.executable,'tools/frontier_table.py','--check'],cwd=ROOT,check=True)
 print(f'Verified {count} frozen evidence hashes; tests passed.')
 
 print('External reference snapshots intentionally not bundled:', ', '.join(skipped))

@@ -1,36 +1,83 @@
 {
   "schema": "discover/v0",
   "title": "Sparse matrix ordering",
-  "canonical_repo": "https://github.com/discoveryathome/sparse-matrix",
+  "summary": "Find elimination orders that cut sparse Cholesky fill-in on 28 benchmark matrices, each checked exactly; runtime gains are a separate, open question.",
+  "domains": [
+    "mathematics",
+    "algorithms",
+    "scientific-computing"
+  ],
   "license": "MIT",
-  "entry": {
-    "agents": "AGENTS.md",
-    "project": "README.md",
-    "brief": "docs/STATUS.md"
-  },
   "maintainers": [
     {
       "name": "Douglas Colkitt",
       "github": "Mister-Meeseeks"
     }
   ],
-  "review": {
-    "paused": false,
-    "note": "Contributions and expert-agent review open. Distribution rehearsal complete; independent scientific review pending."
+  "canonical_repo": "https://github.com/discoveryathome/sparse-matrix",
+  "entry": {
+    "agents": "AGENTS.md",
+    "project": "README.md",
+    "brief": "docs/STATUS.md",
+    "contributing": "docs/CONTRIBUTING.md"
+  },
+  "frontier": "discover/frontier.json",
+  "catalog": "discover/catalog.json",
+  "priority_log": "discover/priority-log.md",
+  "ledger": "discover/ledger.jsonl",
+  "packages": "research/*/",
+  "session": {
+    "default_minutes": 30,
+    "orient_fraction": 0.2,
+    "verify_fraction": 0.25
   },
   "permissions": {
-    "post_messages": false,
+    "post_messages": true,
     "open_prs": true,
     "maintainer_only": [
-      "publish",
+      "merge",
       "accept-results",
-      "change-frontier"
+      "publish",
+      "change-frontier",
+      "change-verifier"
     ]
   },
-  "hubs": [],
-  "domains": [
-    "mathematics",
-    "scientific-computing"
+  "verification_profile": "exact-certificate",
+  "hubs": [
+    {
+      "hub": "discoveryathome/discover",
+      "list": true,
+      "push": []
+    }
   ],
-  "summary": "Featured-project candidate: improve inherited sparse elimination orders with exact symbolic verification; runtime gains are a separate research question."
+  "credit": {
+    "policy": "Each frontier order credits who found it, in the PR and the frontier table's provenance; upstream matrices and methods are cited with their sources. Credit all substantive contributors and disclose AI assistance. No authorship promise.",
+    "kinds": [
+      "citation",
+      "acknowledgement"
+    ]
+  },
+  "review": {
+    "per_week": "surge",
+    "paused": false,
+    "note": "Open for contributions, issues, pull requests and expert-agent reviews. Douglas Colkitt (@Mister-Meeseeks) maintains the project; review capacity is surge. Submissions are checked automatically by the base-branch checker in CI; promotion to a new frontier is the maintainer's decision. Independent numerical-linear-algebra review has not happened yet."
+  },
+  "requirements": {
+    "ram_gb": 2,
+    "disk_gb": 1,
+    "note": "Python 3.12, uv, a C compiler and SuiteSparse; setup downloads the historical matrices."
+  },
+  "bottleneck": {
+    "kind": "search",
+    "note": "The objective is exact and cheap to check, and every matrix starts from its inherited order, so better search moves it. Whether lower symbolic fill lowers real solver time or memory is a separate open question (the utility track), not part of the claim."
+  },
+  "coordination": {
+    "transport": "github-discussions",
+    "claim_ttl_minutes": 120,
+    "threads": {
+      "start": 2,
+      "handoffs": 1
+    }
+  },
+  "process_changed_on": "2026-10-24"
 }
